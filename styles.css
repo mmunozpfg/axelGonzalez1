@@ -1,0 +1,234 @@
+.document-02 {
+    margin: auto!important;
+    width: 100%;
+}
+
+.document-02 table {
+    width: 100%!important;
+    margin: 10px 0px !important;
+}
+.document-02 div:last-child{
+    display: none;
+}
+
+/*#region .document-02 */
+.document-02 .tabla-0 {
+    width: 100% !important;
+}
+
+.document-02 table.tabla-1,
+table.tabla-2,
+table.tabla-3,
+table.tabla-4 {
+    width: 25%!important;
+    margin: 0px !important;
+}
+
+.document-02 .tabla-1 tr:first-child,
+.tabla-2 tr:first-child,
+.tabla-3 tr:first-child,
+.tabla-4 tr:first-child {
+    height: 2.5rem;
+}
+
+.document-02 .tabla-1 tr:nth-child(2),
+.tabla-2 tr:nth-child(2),
+.tabla-3 tr:nth-child(2),
+.tabla-4 tr:nth-child(2) {
+    height: 5rem;
+}
+
+.document-02 .tabla-1 tr:nth-child(3),
+.tabla-2 tr:nth-child(3),
+.tabla-3 tr:nth-child(3),
+.tabla-4 tr:nth-child(3) {
+    height: 2rem;
+}
+
+.document-02 p {
+    font-size: 1.04vw !important;
+}
+
+/*#endregion */
+
+
+/*#region ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1*/
+.document-text div table {
+    width: 100% !important;
+}
+
+div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tr {
+    height: auto !important;
+}
+
+@media only screen and (max-width: 600px) {
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth-child(2) td:first-child {
+        height: 8rem !important;
+    }
+}
+
+/*#endregion */
+
+@media only screen and (max-width: 768px) {
+
+    /*#region Responsive ca-i01-ecommerce-deferred-deposit-agreement-english-2092-Section1 */
+    .document-02 .tabla-0 {
+        width: 100% !important;
+    }
+
+    .document-02 p {
+        font-size: 3vw !important;
+    }
+
+    .document-02 table tbody tr td p {
+        font-size: 3vw !important;
+    }
+
+    .document-02 .tabla-0 tbody tr {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .document-02 .tabla-0 tbody tr td {
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .document-02 table.tabla-1,
+    table.tabla-2,
+    table.tabla-3,
+    table.tabla-4 {
+        width: 100%!important;
+        margin-top: 5% !important;
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .document-02 .tabla-4 tr:first-child td,
+    tr:nth-child(2) td,
+    tr:nth-child(3) td {
+        width: 100% !important;
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .document-02 .tabla-1 tr:first-child,
+    .tabla-2 tr:first-child,
+    .tabla-3 tr:first-child,
+    .tabla-4 tr:first-child {
+        height: 1rem;
+    }
+
+    .document-02 .tabla-1 tr:nth-child(2),
+    .tabla-2 tr:nth-child(2),
+    .tabla-3 tr:nth-child(2),
+    .tabla-4 tr:nth-child(2) {
+        height: auto;
+    }
+
+    .document-02 .tabla-1 tr:nth-child(3),
+    .tabla-2 tr:nth-child(3),
+    .tabla-3 tr:nth-child(3),
+    .tabla-4 tr:nth-child(3) {
+        height: auto;
+    }
+
+    .document-02 .tabla-5 tbody tr {
+        display: flex !important;
+        flex-direction: column !important;
+        width: 100% !important;
+    }
+
+    .document-02 .tabla-5 tbody tr td {
+        width: 100% !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    /*#endregion */
+
+
+    /*#region Responsive ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 */
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tbody tr {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tbody tr td {
+        width: 100% !important;
+        padding: 0px !important;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tbody tr td p {
+        padding: 1.5%;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-0 tr:first-child td:nth-child(2) {
+        border-left-width: 0 !important;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table.tabla-4 {
+        border: none !important;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tbody tr:first-child {
+        display: none;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tbody tr {
+        margin: 1em 0;
+        border: 1px solid #BBBBBB;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 td {
+        border: none;
+        border-bottom: 1px solid #DDDDDD;
+        position: relative;
+        padding-left: 45% !important;
+        width: 54% !important;
+        text-align: left;
+        height: 4.5rem;
+        border-top: none !important;
+        border-right: none !important
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr td:last-child {
+        border-bottom: 1px double #DDDDDD;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:last-child td:last-child {
+        border: none;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 td:before {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 44%;
+        padding-right: 10px;
+        white-space: normal;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 td:nth-of-type(1):before {
+        content: "Reasons we can share your personal information";
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 td:nth-of-type(2):before {
+        content: "Do the ACE Cash Express Companies share?";
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 td:nth-of-type(3):before {
+        content: "Can you limit this sharing?";
+    }
+
+    div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-7 tr:first-child td:nth-child(2) {
+        display: none;
+    }
+
+    /*#endregion */
+}
