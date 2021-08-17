@@ -1,173 +1,498 @@
 .documentVerbiage {
-    width: 100%!important;
+  width: 100%!important;
 }
-/*#region .document1-Section1 */
+/*************#REGION DOCUMENT1 ***************/
 .document1-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 7% 0;
+margin: auto!important;
+width: 100%;
+padding: 8% 0;
 }
 .document1-Section1 table {
-  margin: 10px 0px !important;
-  width: 100%!important;
-  border-radius: 0px;
+margin: 10px 0px !important;
+width: 100%!important;
+border-radius: 0px;
 }
 .document1-Section1 p {
-  /*font-size: 13px!important;*/
+/*font-size: 13px!important;*/
 }
 .document1-Section1 div:last-child  p:last-child{
-  display: none;
+display: none;
 }
-/*#endregion */
+/*#endregion*/
 
-/*#region .document2-Section1 */
+
+/*************#REGION DOCUMENT2 ***************/
 .document2-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 8% 0;
+margin: auto!important;
+width: 100%;
+padding: 8% 0;
 }
 .document2-Section1 div:last-child p:last-child{
-  display: none;
+display: none;
 }
-/*#region .document3-Section1 */
+
+
+/*************#REGION DOCUMENT3 ***************/
 .document3-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 8% 0;
+margin: auto!important;
+width: 100%;
+padding: 8% 0;
 }
 .document3-Section1 table {
-  width: 100%!important;
-  margin: 10px 0px !important;
-  border-radius: 0px;
+width: 100%!important;
+margin: 10px 0px !important;
+border-radius: 0px;
 }
 .document3-Section1 table:nth-of-type(1) {
-    border: 2.75pt solid #000000!important;
+  border: 2.75pt solid #000000!important;
 } 
 .document3-Section1 table:nth-of-type(1) table {
-    border: 2px solid #000000!important;
+  border: 2px solid #000000!important;
 }
 .document3-Section1 div:last-child  p:last-child{
-  display: none;
+display: none;
+}
+
+
+/*************#REGION DOCUMENT4 ***************/
+.document4-Section1 {
+    margin: auto!important;
+    width: 100%;
+    padding: 8% 0;
+}
+.document4-Section1 table {
+    width: 100%!important;
+    border-radius: 0px!important;
+}
+.document4-Section1 table tr td {
+    -webkit-border-radius: 0px!important;
+}
+.document4-Section1 div:last-child  p:last-child{
+display: none;
+}
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(5) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(1),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(2),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(3),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(4) {
+    display: none;
+}
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) {
+    height: auto!important;
+}
+.document4-Section1 div:nth-of-type(2) table img:nth-of-type(2) {
+    margin-top: 0px!important;
+    margin-right: 0!important;
+    margin-left: 0!important;
+}
+
+
+/*************#REGION DOCUMENT5 ***************/
+.document5-Section1 {
+    margin: auto!important;
+    width: 100%;
+    padding: 8% 0;
+}
+.document5-Section1 div:last-child  p:last-child{
+    display: none;
+}
+.document5-Section1 table:first-child tr:first-child td {
+   padding-right:0rem!important;
+   padding-left:0rem!important;
+} 
+.document5-Section1 table:first-child tr:last-child td:first-child {
+    max-width: 75vw;
+    width: 36%!important;
+}
+.document5-Section1 table:first-child tr:last-child td:first-child div table{
+    max-width: 4vw;
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table:first-child tr:last-child td:first-child div table p{
+    padding: 0 2vw;
+    line-height: initial!important;
+}
+.document5-Section1 table:first-child tr:last-child td:nth-of-type(2) div table{
+    max-width: 9vh;
+    width: 75%;
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table:first-child tr:last-child td:nth-of-type(2) p,
+.document5-Section1 table:first-child tr:last-child td:nth-of-type(3) p{
+    line-height: initial!important;
+}
+.document5-Section1 table:first-child tr:last-child td:nth-of-type(3) div table{
+    max-width: 5vh;
+    width: 60%;
+    border-style: none;
+    box-shadow: none;
+}
+
+.document5-Section1 table:first-child tr:last-child td:last-child {
+    max-width: 30vw;
+    width: 31%!important;
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table:first-child tr:first-child td p {
+    font-size: 1.53vh!important;
+}
+.document5-Section1 table:nth-of-type(2) {
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table {
+    border-radius: 0px!important;
+}
+div.document5-Section1 table:nth-of-type(1) td{
+    border-style: none;
+}
+div.document5-Section1 table:nth-of-type(1) {
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table:nth-of-type(2) td{
+    border-style: none;
+}
+
+/*************#REGION DOCUMENT6 ***************/
+.document6-Section1 {
+    margin: auto!important;
+    width: 100%;
+    padding: 8% 0;
+}
+.document6-Section1 div:last-child  p:last-child{
+    display: none;
+}
+.document6-Section1 table:first-child tr:last-child td:first-child div table{
+    max-width: 3vh;
+    border-style: none;
+    box-shadow: none;
+}
+.document6-Section1 table:first-child tr:last-child td:first-child div table p,
+.document6-Section1 table:first-child tr:last-child td:last-child div table p{
+    line-height: initial!important;
+}
+.document6-Section1 table:first-child tr:last-child td:last-child div table {
+    max-width: 5vh;
+    border-style: none;
+    box-shadow: none;
+}
+.document6-Section1 table tr td {
+    border-style: none;
+    box-shadow: none;
+}
+
+/*************#REGION DOCUMENT7 ***************/
+.document7-Section1 {
+    margin: auto!important;
+    width: 100%;
+    padding: 8% 0;
+}
+.document7-Section1 div:last-child  p:last-child{
+    display: none;
+}
+.document7-Section1 table {
+    width: 100%!important;
+    border-radius: 0px;
+    border-style: none;
+    box-shadow: none;
+    margin: 0!important;
+}
+.document7-Section1 table tr td {
+    border-style: none;
+}
+.document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
+.document7-Section1 table:nth-of-type(3) tr td:nth-of-type(2) p {
+    margin-right:0px!important;
+    margin-left: 3vw;
+}
+
+
+/*************#REGION DOCUMENT8 ***************/
+.document8-Section1 {
+    margin: auto!important;
+    width: 100%;
+    padding: 8% 0;
+}
+.document8-Section1 div:last-child  p:last-child{
+    display: none;
+}
+.document8-Section1 table {
+    width: 100%!important;
+    border-radius: 0px;
+}
+.document8-Section1 table:nth-of-type(1) {
+    border-style: none;
+    box-shadow: none;
+}
+.document8-Section1 table:nth-of-type(1) tr td {
+    border-style: none;
+}
+.test-d table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:first-child td p {
+    font-size: 9pt!important;
+    background:yellow;
+}
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td div table p {
+    line-height: initial!important;
+    font-size: 10pt!important;
+}
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:first-child div table{
+    max-width: 9vh;
+    width: 75%!important;
+}
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(2) div table,
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(3) div table,
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(4) div table{
+    max-width: 4vh;
+    width: 75%!important;
 }
 
 /*#region ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1*/
 .document-text div table {
-  width: 100% !important;
+width: 100% !important;
 }
 
 div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tr {
-  height: auto !important;
+height: auto !important;
 }
 
 @media only screen and (max-width: 600px) {
-  div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth-child(2) td:first-child {
-      height: 8rem !important;
-  }
+div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth-child(2) td:first-child {
+    height: 8rem !important;
+}
 }
 
 /*#endregion */
 
 @media only screen and (max-width: 320px) {
-  .document1-Section1 table:first-child tr td {
-    max-width: fit-content!important
-  }    
-  .document1-Section1 table:nth-of-type(1) tr td {
-     max-width: 66px;
-  }  
-  .document1-Section1 div:nth-of-type(2) table tr td p {
-    font-size: 9.5px!important;
+.document1-Section1 table:first-child tr td {
+  max-width: fit-content!important
+}    
+.document1-Section1 table:nth-of-type(1) tr td {
+   max-width: 66px;
+}  
+.document1-Section1 div:nth-of-type(2) table tr td p {
+  font-size: 9.5px!important;
+}
+}
+@media screen and (min-width: 320px) and (max-width: 412px) {
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10){
+    margin-left: 22vw!important;
+    text-indent: -22vw!important;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child{
+        margin-right: -2vw!important;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12),
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13),
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14){
+    margin-left: 22vw!important;
+    text-indent: -27vw!important;
+}
+}
+@media screen and (min-width: 413px) and (max-width: 415px) {
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) {
+    margin-left: 20vw!important;
+    text-indent: -20vw!important;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child{
+        margin-right: -2vw!important;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12), .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13), .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14) {
+    margin-left: 30vw!important;
+    text-indent: -35vw!important;
+    font-size: 2.4vw!important;
 }
 }
 @media only screen and (max-width: 480px) {
 
-  /*#region Responsive ca-i01-ecommerce-deferred-deposit-agreement-english-2092-Section1 */
-   .document1-Section1 table {
-      display: block;
-      width: 100%!important;
-    }
-  .document1-Section1 p {
-    font-size: 10pt!important;
-   }
+/***********REGION RESPONSIVE DOCUMENT1*************/
+ .document1-Section1 table {
+    display: block;
+    width: 100%!important;
+  }
+.document1-Section1 p {
+  font-size: 3.13vw!important;
+ }
 
-  /*.document1-Section1 table tr td
-  {
-      width: 100% !important;
-      padding-right: 0px !important;
-      padding-left: 0px !important;
-  }*/
-  /*#endregion */
 .document1-Section1 div:nth-of-type(1) table tr td p {
-    font-size: 3vw!important;
+  font-size: 3vw!important;
 }
 .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p {
-    display:flex;
+  display:flex;
 }
 .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p span {
     font-size: 2.45vw;
 }
 .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(1) {
-    font-size: 2.3vw;
-    width: 10vw;
+  font-size: 2.2vw;
+  width: 9vw;
 }
 .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2) {
-    display:none!important;
+  display:none!important;
 }
 .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:first-child, .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:nth-of-type(2)   {
-    width: 5vw!important;
+  width: 4vw!important;
 }
 .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(1) td:first-child p {
-    display:flex;
+  display:flex;
 }
 .document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(1){
-    width:30%!important;
+  width:30%!important;
 }
 .document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(2){
-    width:100%;
+  width:100%;
 }
 .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:nth-of-type(2) p span:nth-of-type(3) {
-    display:none!important;
+  display:none!important;
 }
 .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:first-child p:first-child span:nth-of-type(2) {
-    width:10vw!important;
+  width:10vw!important;
 }
 .document1-Section1 table:nth-of-type(1) tr td p {
-    font-size: 10pt!important;
+  font-size: 1.9vw!important;
 }
 .document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td p {
-    margin-top: 2px!important;
+  margin-top: 2px!important;
 }
 .document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td {
-    padding: 0.3em 0.1em 0.1em!important;
+  padding: 0.3em 0.1em 0.1em!important;
 }
 .document1-Section1 table:nth-of-type(1) tr td {
-    padding: 0.2em!important;
-    width: 25%!important;
+  padding: 0.2em!important;
+  width: 25%!important;
 }
 .document1-Section1 table:nth-of-type(2) {
-  border-style: none!important;
-  box-shadow: none;
+border-style: none!important;
+box-shadow: none;
 }
 .document1-Section1 table:nth-of-type(2) tr td {
-  border-style: none!important;
+border-style: none!important;
 }
 
-/*Region responsive document3-Section1*/
+
+
+/********REGION RESPONSIVE DOCUMENT3**************/
 .document3-Section1 table {
-    display: block;
+  display: block;
 }
 .document3-Section1 table:nth-of-type(1) table {
-    display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
 .document3-Section1 table:nth-of-type(1) table:first-child tr td{
-    max-width: 20vw;
-    overflow-wrap: break-word;
+  max-width: 20vw;
+  overflow-wrap: break-word;
 }
 .document3-Section1 table:nth-of-type(1) table:last-child tr td {
-    max-width: 8em!important;
+  max-width: 8em!important;
 }
 .document3-Section1 ol li {
-    margin-left: 10pt!important;
-    padding-left: 0pt!important;
+  margin-left: 10pt!important;
+  padding-left: 0pt!important;
+}
+
+
+/***********REGION RESPONSIVE DOCUMENT4*************/
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:first-child,
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:first-child,
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:first-child,
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:first-child{
+    max-width:10vw;
+    word-wrap: break-word;
+    width:22%!important;
+}
+
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:nth-of-type(2),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:nth-of-type(2),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:nth-of-type(2),
+.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2){
+    max-width:10vw;
+    width:70%!important;
+}
+
+.document4-Section1 div:nth-of-type(2) table img {
+    width: 100%;
+    height: auto;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:first-child,
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:first-child,
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(4) td:first-child{
+    max-width:10vw;
+    word-wrap: break-word;
+    width:22%!important;
+}
+
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:nth-of-type(2),
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2),
+.document4-Section1 div:nth-of-type(3) table  tr:nth-of-type(4) td:nth-of-type(2){
+    word-wrap: break-word;
+    max-width: 10vw;
+    width: 70%!important;
+}
+.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p{
+    font-size:2.6vw!important;
+}
+.document4-Section1 div:nth-of-type(3) table {
+    width:100%!important;
+}
+.document4-Section1 p {
+    font-size:10px!important;
+}
+.document4-Section1 div:nth-of-type(1) table tr td p{
+    font-size: 2.6vw!important;
+}
+/***********REGION RESPONSIVE DOCUMENT5*************/
+.document5-Section1 {
+    overflow-x: hidden;
+}
+div.document5-Section1 table:nth-of-type(1) td{
+    max-width: 1vw;
+    border-style: none;
+}
+div.document5-Section1 table:nth-of-type(1) {
+    border-style: none;
+    box-shadow: none;
+}
+.document5-Section1 table:nth-of-type(2) td{
+    max-width: 1vw;
+    border-style: none;
+}
+.document5-Section1 table:nth-of-type(2) tr td p{
+    font-size: 3.3vw!important;
+}
+
+/***********REGION RESPONSIVE DOCUMENT8*************/
+.document8-Section1 table:nth-of-type(1) tr td {
+    max-width: 10vw;
+    word-wrap: break-word;
+    width: auto!important;
+}
+.document8-Section1 table:nth-of-type(2) tr td {
+    word-wrap: break-word;
+    max-width: 22vw;
+    width: auto!important;
+    border-style: none;
+    padding: 0!important;
+    border-top-width: 1px!important;
+    border-left-width: 1px!important;
+}
+.document8-Section1 table:nth-of-type(2) tr:first-child td p,
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(2) td p,
+.document8-Section1 table:nth-of-type(2) tr:nth-of-type(3) td p{
+    font-size: 9pt!important;
+}
+.document8-Section1 p:nth-of-type(3) span, 
+.document8-Section1 p:nth-of-type(5) span{
+    word-wrap: break-word;
+    max-width: 22vw;
+    width: auto!important;
 }
 }
