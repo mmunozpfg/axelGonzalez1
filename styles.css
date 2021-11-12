@@ -289,12 +289,9 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
   display: none;
 }
 
-.document11-Section1 p:first-child{
-  margin-left: auto;
+.document11-Section1 p:nth-of-type(1){
+  margin-left: auto!important;
   text-align: center;
-}
-.document11-Section1 p:first-child span:first-child {
-  display: none;
 }
 /*#endregion*/
 
