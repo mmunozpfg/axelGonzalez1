@@ -293,7 +293,7 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
   text-align: center;
 }
 .document11-Section1 p:nth-of-type(1) span::nth-of-type(1){
-  display:none;
+  display:none!important;
 }
 .document11-Section1 table:nth-of-type(1) tr td p{
   font-size: 3vw!important;
@@ -527,4 +527,29 @@ div.document5-Section1 table:nth-of-type(1) {
     max-width: 22vw;
     width: auto!important;
 }
+
+  /*************FL/IL4 Documents ***************/
+  .document13-Section1 table:nth-of-type(1) tr td p {
+    font-size: 2.8vw!important;
+    line-height: 2vh;
+  }
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p::nth-of-type(3) { 
+    display: none;
+  }
+  .document13-Section1 table:nth-of-type(2) tr td p {
+    font-size: 3vw!important;
+    line-height: 2vh;
+  }
+  .document13-Section1 table tr td {
+     max-width: 22vw!important;
+  }
+ .document13-Section1 table:nth-of-type(2) tr td p {
+    font-size: 3vw!important;
+    line-height: 2vh;
+  }
+  .document13-Section1 table tr td{
+    max-width: 0em!important;
+    word-wrap: break-word;
+    padding: 0.1rem!important;
+  }
 }
