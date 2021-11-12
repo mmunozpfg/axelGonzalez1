@@ -555,8 +555,17 @@ div.document5-Section1 table:nth-of-type(1) {
   .document13-Section1 table:nth-of-type(2) tr:last-child td:last-child table:first-child tr td:first-child p{
     width: 10vw;
     margin: auto;
-    line-height: inherit;
-    background: pink;
+    line-height: normal!important;
+  }
+  .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2)  table:first-child tr td:first-child p{
+    width: 14vw;
+    margin: auto;
+    line-height: normal!important;
+  }
+  .document13-Section1 table:nth-of-type(2) tr:last-child td:first-child  table:first-child tr td:first-child p{
+    width: 4vw;
+    margin: auto;
+    line-height: normal!important;
   }
   .document13-Section1 table:nth-of-type(3) tr td{
     padding: 0.1rem;
