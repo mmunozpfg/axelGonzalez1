@@ -278,12 +278,14 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
   width: 100%;
   padding: 8% 0;
 }
-.document9-Section1 table, .document10-Section1 table, .document11-Section1 table, .document12-Section1 table, .document13-Section1 table, .document14-Section1 table {
+.document9-Section1 table, .document10-Section1 table, .document11-Section1 table, .document12-Section1 table, .document13-Section1 table,
+.document14-Section1 table {
   margin: 10px 0px !important;
   width: 100%!important;
   border-radius: 0px;
 }
-.document9-Section1 div:last-child  p:last-child, .document10-Section1 div:last-child  p:last-child, .document11-Section1 div:last-child  p:last-child, .document12-Section1 div:last-child  p:last-child, .document13-Section1 div:last-child  p:last-child, .document14-Section1 div:last-child  p:last-child {
+.document9-Section1 div:last-child  p:last-child, .document10-Section1 div:last-child  p:last-child, .document11-Section1 div:last-child  p:last-child,
+.document12-Section1 div:last-child  p:last-child, .document13-Section1 div:last-child  p:last-child, .document14-Section1 div:last-child  p:last-child {
   display: none;
 }
 /*#endregion*/
