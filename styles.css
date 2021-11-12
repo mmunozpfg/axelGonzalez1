@@ -277,6 +277,7 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
   margin: auto!important;
   width: 100%;
   padding: 8% 0;
+  word-wrap: break-word;
 }
 .document9-Section1 table, .document10-Section1 table, .document11-Section1 table, .document12-Section1 table, .document13-Section1 table,
 .document14-Section1 table {
@@ -550,6 +551,9 @@ div.document5-Section1 table:nth-of-type(1) {
   .document13-Section1 table tr td{
     max-width: 0em!important;
     word-wrap: break-word;
-    padding: 0.1rem!important;
+  } 
+  .document13-Section1 table:nth-of-type(3) table:first-child tr td{
+    max-width: 20vw;
+    overflow-wrap: break-word;
   }
 }
