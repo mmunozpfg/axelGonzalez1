@@ -540,7 +540,8 @@ div.document5-Section1 table:nth-of-type(1) {
   .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) {
     background:skyblue;
   }
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3) {
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3),
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) a:nth-of-type(2) span::nth-of-type(1){
     display: none;
   }
   .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) {
