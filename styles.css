@@ -534,14 +534,20 @@ div.document5-Section1 table:nth-of-type(1) {
     font-size: 2.6vw!important;
   }
   .document13-Section1 table:nth-of-type(1) tr td p {
-    font-size: 2.8vw!important;
+    font-size: 2.74vw!important;
     line-height: 2vh;
   }
   .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) {
     background:skyblue;
   }
-  .document13-Section1 table:first-child tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3) { 
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3) {
     display: none;
+  }
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) {
+    display: flex;
+  }
+  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) span:nth-of-type(1) {
+     margin-right: 3vw;
   }
   .document13-Section1 table:nth-of-type(2) tr td p {
     font-size: 3vw!important;
