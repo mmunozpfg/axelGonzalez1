@@ -597,14 +597,21 @@ div.document5-Section1 table:nth-of-type(1) {
     line-height: normal!important;
   }
   .document13-Section1 table:nth-of-type(3) tr td{
-    padding: 0.1rem;
+    padding: 0.06rem;
+    border-style: none;
+  }
+  .document13-Section1 table:nth-of-type(3) {
+    border-style: none;
+    box-shadow: 0 0 0 black;
   }
   .document13-Section1 table:nth-of-type(3) tr td p, .document13-Section1 table:last-child tr td p{
     font-size: 2.8vw!important;
     line-height: normal;
   }
-  
-  
+  .document13-Section1 p:nth-of-type(5) {
+    background: pink;
+  }
+   
     /*************MO Documents ***************/
     .ocumentMO-02-Section1 table tr td, .ocumentMO-02-Section1 table tr td {
       max-width: 0em!important;
