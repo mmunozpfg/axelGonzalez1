@@ -300,8 +300,14 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
   display:none!important;
 }
 .document13-Section1 table:nth-of-type(2) tr:last-child td table {
-   border-style: none;
+   border-style: hidden;
    box-shadow: 0 0 0 black;
+}
+.document13-Section1 p:nth-of-type(5) span:nth-of-type(1),
+.document13-Section1 p:nth-of-type(5) span:nth-of-type(2),
+.document13-Section1 p:nth-of-type(5) span:nth-of-type(3){
+   background: pink;
+   display: none;
 }
 /*#endregion*/
 
@@ -611,9 +617,6 @@ div.document5-Section1 table:nth-of-type(1) {
   .document13-Section1 table:nth-of-type(3) tr td p, .document13-Section1 table:last-child tr td p{
     font-size: 2.8vw!important;
     line-height: normal;
-  }
-  .document13-Section1 p:nth-of-type(5) {
-    background: pink;
   }
    
     /*************MO Documents ***************/
