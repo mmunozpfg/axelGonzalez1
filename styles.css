@@ -299,6 +299,10 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
 .document11-Section1 p:nth-of-type(1) span::nth-of-type(1){
   display:none!important;
 }
+.document13-Section1 table:nth-of-type(2) tr:last-child td table {
+   border-style: none;
+   box-shadow: 0 0 0 black;
+}
 /*#endregion*/
 
 
