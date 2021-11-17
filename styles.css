@@ -356,6 +356,26 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
 /*#endregion*/
 
 
+/*************MN Loan Documents ***************/
+.ocumentNM-02-Section1, .ocumentNM-01-Section1 {
+  margin: auto!important;
+  width: 100%;
+  padding: 8% 0;
+  word-wrap: break-word;
+}
+.ocumentNM-02-Section1 a, .ocumentNM-01-Section1 a {
+  color:#000000!important;
+}
+.ocumentNM-02-Section1 table, .ocumentNM-01-Section1 table {
+  margin: 10px 0px !important;
+  width: 100%!important;
+  border-radius: 0px;
+}
+.ocumentNM-02-Section1 div:last-child  p:last-child, .ocumentNM-01-Section1 div:last-child  p:last-child {
+  display: none;
+}
+/*#endregion*/
+
 /*************Media Queries ***************/
 @media only screen and (max-width: 320px) {
 .document1-Section1 table:first-child tr td {
