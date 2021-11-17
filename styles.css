@@ -666,9 +666,14 @@ div.document5-Section1 table:nth-of-type(1) {
     line-height: normal;
   }
      
+  /*************MO Documents ***************/
+  .ocumentMO-02-Section1 table tr td, .ocumentMO-02-Section1 table tr td {
+    max-width: 0em!important;
+    word-wrap: break-word;
+  }   
+
     /*************MO Documents ***************/
-    .ocumentMO-02-Section1 table tr td, .ocumentMO-02-Section1 table tr td {
-      max-width: 0em!important;
-      word-wrap: break-word;
-    }   
+  .ocumentNM-02-Section1 table tr td, .ocumentNM-01-Section1 table tr td {
+    max-width: 3em;
+  }   
 }
