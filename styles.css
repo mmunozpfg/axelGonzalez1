@@ -307,7 +307,7 @@ div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth
 .document13-Section1 p:nth-of-type(5) span:nth-of-type(2),
 .document13-Section1 p:nth-of-type(5) span:nth-of-type(3){
    background: pink;
-   display: none;
+   display: none!important;
 }
 /*#endregion*/
 
