@@ -674,10 +674,10 @@ div.document5-Section1 table:nth-of-type(1) {
   }
   .document13-Section1 table:nth-of-type(3) tr:nth-of-type(1), 
   .document13-Section1 table:nth-of-type(3) tr:nth-of-type(2) {
-    height: 7em!important;
+    height: 5em!important;
   }
   .document13-Section1 table:nth-of-type(3) tr:nth-of-type(3) {
-    height: 10em!important;
+    height: 8em!important;
   }
   .document13-Section1 table:last-child tr td p{
     font-size: 2.8vw!important;
