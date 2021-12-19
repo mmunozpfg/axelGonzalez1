@@ -15,6 +15,9 @@ border-radius: 0px;
 .document1-Section1 p {
 /*font-size: 13px!important;*/
 }
+.document1-Section1 a {
+  color:#000000!important;
+}
 .document1-Section1 div:last-child  p:last-child{
 display: none;
 }
