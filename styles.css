@@ -188,6 +188,12 @@ div.document5-Section1 table:nth-of-type(1) {
     border-style: none;
     box-shadow: none;
 }
+.document6-Section1 p:nth-of-type(12),
+.document6-Section1 p:nth-of-type(13),
+.document6-Section1 p:nth-of-type(14),
+.document6-Section1 p:nth-of-type(15){
+    background: yellow;
+}
 
 /*************#REGION DOCUMENT7 ***************/
 .document7-Section1 {
