@@ -1,724 +1,902 @@
 .documentVerbiage {
-  width: 100%!important;
-}
-/*************#REGION DOCUMENT1 ***************/
-.document1-Section1 {
-margin: auto!important;
-width: 100%;
-padding: 8% 0;
-}
-.document1-Section1 table {
-margin: 10px 0px !important;
-width: 100%!important;
-border-radius: 0px;
-}
-.document1-Section1 p {
-/*font-size: 13px!important;*/
-}
-.document1-Section1 a {
-  color:#000000!important;
-}
-.document1-Section1 div:last-child  p:last-child{
-display: none;
-}
-/*#endregion*/
+        width: 100% !important;
+    }
+
+    /*************#REGION DOCUMENT1 ***************/
+    .document1-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document1-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .document1-Section1 p {
+        /*font-size: 13px!important;*/
+    }
+
+    .document1-Section1 a {
+        color: #000000 !important;
+    }
+
+    .document1-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
+    /*#endregion*/
 
 
-/*************#REGION DOCUMENT2 ***************/
-.document2-Section1 {
-margin: auto!important;
-width: 100%;
-padding: 8% 0;
-}
-.document2-Section1 div:last-child p:last-child{
-display: none;
-}
+    /*************#REGION DOCUMENT2 ***************/
+    .document2-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document2-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
 
-/*************#REGION DOCUMENT3 ***************/
-.document3-Section1 {
-margin: auto!important;
-width: 100%;
-padding: 8% 0;
-}
-.document3-Section1 table {
-width: 100%!important;
-margin: 10px 0px !important;
-border-radius: 0px;
-}
-.document3-Section1 table:nth-of-type(1) {
-  border: 2.75pt solid #000000!important;
-} 
-.document3-Section1 table:nth-of-type(1) table {
-  border: 2px solid #000000!important;
-}
-.document3-Section1 div:last-child  p:last-child{
-display: none;
-}
+    /*************#REGION DOCUMENT3 ***************/
+    .document3-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document3-Section1 table {
+        width: 100% !important;
+        margin: 10px 0px !important;
+        border-radius: 0px;
+    }
+
+    .document3-Section1 table:nth-of-type(1) {
+        border: 2.75pt solid #000000 !important;
+    }
+
+    .document3-Section1 table:nth-of-type(1) table {
+        border: 2px solid #000000 !important;
+    }
+
+    .document3-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
 
-/*************#REGION DOCUMENT4 ***************/
-.document4-Section1 {
-    margin: auto!important;
-    width: 100%;
-    padding: 8% 0;
-}
-.document4-Section1 table {
-    width: 100%!important;
-    border-radius: 0px!important;
-}
-.document4-Section1 table tr td {
-    -webkit-border-radius: 0px!important;
-}
-.document4-Section1 div:last-child  p:last-child{
-display: none;
-}
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(5) {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-}
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(1),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(2),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(3),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(4) {
-    display: none;
-}
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) {
-    height: auto!important;
-}
-.document4-Section1 div:nth-of-type(2) table img:nth-of-type(2) {
-    margin-top: 0px!important;
-    margin-right: 0!important;
-    margin-left: 0!important;
-}
+    /*************#REGION DOCUMENT4 ***************/
+    .document4-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document4-Section1 table {
+        width: 100% !important;
+        border-radius: 0px !important;
+    }
+
+    .document4-Section1 table tr td {
+        -webkit-border-radius: 0px !important;
+    }
+
+    .document4-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(5) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(1),
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(2),
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(3),
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) p:nth-of-type(4) {
+        display: none;
+    }
+
+    .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) {
+        height: auto !important;
+    }
+
+    .document4-Section1 div:nth-of-type(2) table img:nth-of-type(2) {
+        margin-top: 0px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
 
 
-/*************#REGION DOCUMENT5 ***************/
-.document5-Section1 {
-    margin: auto!important;
-    width: 100%;
-    padding: 8% 0;
-}
-.document5-Section1 div:last-child  p:last-child{
-    display: none;
-}
-.document5-Section1 table:first-child tr:first-child td {
-   padding-right:0rem!important;
-   padding-left:0rem!important;
-} 
-.document5-Section1 table:first-child tr:last-child td:first-child {
-    max-width: 75vw;
-    width: 36%!important;
-}
-.document5-Section1 table:first-child tr:last-child td:first-child div table{
-    max-width: 4vw;
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table:first-child tr:last-child td:first-child div table p{
-    padding: 0 2vw;
-    line-height: initial!important;
-}
-.document5-Section1 table:first-child tr:last-child td:nth-of-type(2) div table{
-    max-width: 9vh;
-    width: 75%;
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table:first-child tr:last-child td:nth-of-type(2) p,
-.document5-Section1 table:first-child tr:last-child td:nth-of-type(3) p{
-    line-height: initial!important;
-}
-.document5-Section1 table:first-child tr:last-child td:nth-of-type(3) div table{
-    max-width: 5vh;
-    width: 60%;
-    border-style: none;
-    box-shadow: none;
-}
+    /*************#REGION DOCUMENT5 ***************/
+    .document5-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
 
-.document5-Section1 table:first-child tr:last-child td:last-child {
-    max-width: 30vw;
-    width: 31%!important;
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table:first-child tr:first-child td p {
-    font-size: 1.53vh!important;
-}
-.document5-Section1 table:nth-of-type(2) {
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table {
-    border-radius: 0px!important;
-}
-div.document5-Section1 table:nth-of-type(1) td{
-    border-style: none;
-}
-div.document5-Section1 table:nth-of-type(1) {
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table:nth-of-type(2) td{
-    border-style: none;
-}
+    .document5-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
-/*************#REGION DOCUMENT6 ***************/
-.document6-Section1 {
-    margin: auto!important;
-    width: 100%;
-    padding: 8% 0;
-}
-.document6-Section1 div:last-child  p:last-child{
-    display: none;
-}
-.document6-Section1 table:first-child tr:last-child td:first-child div table{
-    max-width: 3vh;
-    border-style: none;
-    box-shadow: none;
-}
-.document6-Section1 table:first-child tr:last-child td:first-child div table p,
-.document6-Section1 table:first-child tr:last-child td:last-child div table p{
-    line-height: initial!important;
-}
-.document6-Section1 table:first-child tr:last-child td:last-child div table {
-    max-width: 5vh;
-    border-style: none;
-    box-shadow: none;
-}
-.document6-Section1 table tr td {
-    border-style: none;
-    box-shadow: none;
-}
-.document6-Section1 p:nth-of-type(12),
-.document6-Section1 p:nth-of-type(13),
-.document6-Section1 p:nth-of-type(14),
-.document6-Section1 p:nth-of-type(15),
-.document6-Section1 p:nth-of-type(16){
-    display: none;
-}
+    .document5-Section1 table:first-child tr:first-child td {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
 
-/*************#REGION DOCUMENT7 ***************/
-.document7-Section1 {
-    margin: auto!important;
-    width: 100%;
-    padding: 8% 0;
-}
-.document7-Section1 div:last-child  p:last-child{
-    display: none;
-}
-.document7-Section1 table {
-    width: 100%!important;
-    border-radius: 0px;
-    border-style: none;
-    box-shadow: none;
-    margin: 0!important;
-}
-.document7-Section1 table tr td {
-    border-style: none;
-}
-.document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
-.document7-Section1 table:nth-of-type(3) tr td:nth-of-type(2) p {
-    margin-right:0px!important;
-    margin-left: 3vw;
-}
+    .document5-Section1 table:first-child tr:last-child td:first-child {
+        max-width: 75vw;
+        width: 36% !important;
+    }
 
+    .document5-Section1 table:first-child tr:last-child td:first-child div table {
+        max-width: 4vw;
+        border-style: none;
+        box-shadow: none;
+    }
 
-/*************#REGION DOCUMENT8 ***************/
-.document8-Section1 {
-    margin: auto!important;
-    width: 100%;
-    padding: 8% 0;
-}
-.document8-Section1 div:last-child  p:last-child{
-    display: none;
-}
-.document8-Section1 table {
-    width: 100%!important;
-    border-radius: 0px;
-}
-.document8-Section1 table:nth-of-type(1) {
-    border-style: none;
-    box-shadow: none;
-}
-.document8-Section1 table:nth-of-type(1) tr td {
-    border-style: none;
-}
-.test-d table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:first-child td p {
-    font-size: 9pt!important;
-    background:yellow;
-}
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td div table p {
-    line-height: initial!important;
-    font-size: 10pt!important;
-}
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:first-child div table{
-    max-width: 9vh;
-    width: 75%!important;
-}
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(2) div table,
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(3) div table,
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(4) div table{
-    max-width: 4vh;
-    width: 75%!important;
-}
+    .document5-Section1 table:first-child tr:last-child td:first-child div table p {
+        padding: 0 2vw;
+        line-height: initial !important;
+    }
 
-.document8-Section1 p:nth-of-type(6),
-.document8-Section1 p:nth-of-type(7),
-.document8-Section1 p:nth-of-type(8),
-.document8-Section1 p:nth-of-type(9),
-.document8-Section1 p:nth-of-type(10){
-    margin-left: auto!important;
-}
+    .document5-Section1 table:first-child tr:last-child td:nth-of-type(2) div table {
+        max-width: 9vh;
+        width: 75%;
+        border-style: none;
+        box-shadow: none;
+    }
 
-/*#region ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1*/
-.document-text div table {
-width: 100% !important;
-}
+    .document5-Section1 table:first-child tr:last-child td:nth-of-type(2) p,
+    .document5-Section1 table:first-child tr:last-child td:nth-of-type(3) p {
+        line-height: initial !important;
+    }
 
-div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 table tr {
-height: auto !important;
-}
+    .document5-Section1 table:first-child tr:last-child td:nth-of-type(3) div table {
+        max-width: 5vh;
+        width: 60%;
+        border-style: none;
+        box-shadow: none;
+    }
 
-@media only screen and (max-width: 600px) {
-div.ca-i01-ecommerce-lender-privacy-policy-english-1799-Section1 .tabla-4 tr:nth-child(2) td:first-child {
-    height: 8rem !important;
-}
-}
+    .document5-Section1 table:first-child tr:last-child td:last-child {
+        max-width: 30vw;
+        width: 31% !important;
+        border-style: none;
+        box-shadow: none;
+    }
 
-/*#endregion */
+    .document5-Section1 table:first-child tr:first-child td p {
+        font-size: 1.53vh !important;
+    }
+
+    .document5-Section1 table:nth-of-type(2) {
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document5-Section1 table {
+        border-radius: 0px !important;
+    }
+
+    div.document5-Section1 table:nth-of-type(1) td {
+        border-style: none;
+    }
+
+    div.document5-Section1 table:nth-of-type(1) {
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document5-Section1 table:nth-of-type(2) td {
+        border-style: none;
+    }
+
+    /*************#REGION DOCUMENT6 ***************/
+    .document6-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document6-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
+    .document6-Section1 table:first-child tr:last-child td:first-child div table {
+        max-width: 3vh;
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document6-Section1 table:first-child tr:last-child td:first-child div table p,
+    .document6-Section1 table:first-child tr:last-child td:last-child div table p {
+        line-height: initial !important;
+    }
+
+    .document6-Section1 table:first-child tr:last-child td:last-child div table {
+        max-width: 5vh;
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document6-Section1 table tr td {
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document6-Section1 p:nth-of-type(12),
+    .document6-Section1 p:nth-of-type(13),
+    .document6-Section1 p:nth-of-type(14),
+    .document6-Section1 p:nth-of-type(15),
+    .document6-Section1 p:nth-of-type(16) {
+        display: none;
+    }
+
+    /*************#REGION DOCUMENT7 ***************/
+    .document7-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
+
+    .document7-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
+    .document7-Section1 table {
+        width: 100% !important;
+        border-radius: 0px;
+        border-style: none;
+        box-shadow: none;
+        margin: 0 !important;
+    }
+
+    .document7-Section1 table tr td {
+        border-style: none;
+    }
+
+    .document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
+    .document7-Section1 table:nth-of-type(3) tr td:nth-of-type(2) p {
+        margin-right: 0px !important;
+        margin-left: 3vw;
+    }
 
 
-/*************FL/IL4 Documents ***************/
-.document9-Section1, .document10-Section1, .document11-Section1, .document12-Section1, .document13-Section1, .document14-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 8% 0;
-  word-wrap: break-word;
-}
-.document9-Section1 a, .document10-Section1 a, .document11-Section1 a, .document12-Section1 a, .document13-Section1 a, .document14-Section1 a {
-  color:#000000!important;
-}
-.document9-Section1 table, .document10-Section1 table, .document11-Section1 table, .document12-Section1 table, .document13-Section1 table,
-.document14-Section1 table {
-  margin: 10px 0px !important;
-  width: 100%!important;
-  border-radius: 0px;
-}
-.document9-Section1 div:last-child  p:last-child, .document10-Section1 div:last-child  p:last-child, .document11-Section1 div:last-child  p:last-child,
-.document12-Section1 div:last-child  p:last-child, .document13-Section1 div:last-child  p:last-child, .document14-Section1 div:last-child  p:last-child {
-  display: none;
-}
-.document11-Section1 p:nth-of-type(1){
-  margin-left: auto!important;
-  text-align: center;
-}
-.document11-Section1 p:nth-of-type(1) span::nth-of-type(1){
-  display:none!important;
-}
-.document13-Section1 table:nth-of-type(2) tr:last-child td table {
-   border-style: hidden;
-   box-shadow: 0 0 0 black;
-}
+    /*************#REGION DOCUMENT8 ***************/
+    .document8-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+    }
 
-.document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p span{
-  display: inline!important;
-}
+    .document8-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
-.document13-Section1 p:nth-of-type(5) span:nth-of-type(1),
-.document13-Section1 p:nth-of-type(5) span:nth-of-type(2),
-.document13-Section1 p:nth-of-type(5) span:nth-of-type(3),
-.document13-Section1 p:nth-of-type(6) span:nth-of-type(1),
-.document13-Section1 p:nth-of-type(6) span:nth-of-type(2),
-.document13-Section1 p:nth-of-type(6) span:nth-of-type(3),
-.document13-Section1 p:nth-of-type(7) span:nth-of-type(1),
-.document13-Section1 p:nth-of-type(7) span:nth-of-type(2),
-.document13-Section1 p:nth-of-type(7) span:nth-of-type(3){
-   display: none!important;
-}
+    .document8-Section1 table {
+        width: 100% !important;
+        border-radius: 0px;
+    }
 
-.document13-Section1 table:nth-of-type(2) tr:last-child td:first-child table:first-child tr td:first-child p {
-  max-width: 2em;
-  margin: auto;
-  line-height: normal!important;
- }
-.document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2) table:first-child tr td:first-child p {
-  max-width: 7em;
-  margin: auto;
-  line-height: normal!important;
- }
-.document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(3) table:first-child tr td:first-child p {
-  max-width: 4em;
-  margin: auto;
-  line-height: normal!important;
- }
-.document13-Section1 table:nth-of-type(3) {
-    border-style: none;
-    box-shadow: 0 0 0 black;
- }
-.document13-Section1 table:nth-of-type(3) td {
-    border-style: none;
- }
-/*#endregion*/
+    .document8-Section1 table:nth-of-type(1) {
+        border-style: none;
+        box-shadow: none;
+    }
+
+    .document8-Section1 table:nth-of-type(1) tr td {
+        border-style: none;
+    }
+
+    .test-d table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:first-child td p {
+        font-size: 9pt !important;
+        background: yellow;
+    }
+
+    .document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td div table p {
+        line-height: initial !important;
+        font-size: 10pt !important;
+    }
+
+    .document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:first-child div table {
+        max-width: 9vh;
+        width: 75% !important;
+    }
+
+    .document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(2) div table,
+    .document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(3) div table,
+    .document8-Section1 table:nth-of-type(2) tr:nth-of-type(6) td:first-child div table tr:last-child td:nth-of-type(4) div table {
+        max-width: 4vh;
+        width: 75% !important;
+    }
+
+    .document8-Section1 p:nth-of-type(6),
+    .document8-Section1 p:nth-of-type(7),
+    .document8-Section1 p:nth-of-type(8),
+    .document8-Section1 p:nth-of-type(9),
+    .document8-Section1 p:nth-of-type(10) {
+        margin-left: auto !important;
+    }
+    /*#endregion */
 
 
-/*************MO Documents ***************/
-.ocumentMO-01-Section1, .ocumentMO-02-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 8% 0;
-  word-wrap: break-word;
-}
-.ocumentMO-01-Section1 table, .ocumentMO-02-Section1 table {
-  margin: 10px 0px !important;
-  width: 100%!important;
-  border-radius: 0px;
-}
-.ocumentMO-01-Section1 div:last-child  p:last-child, .ocumentMO-02-Section1 div:last-child  p:last-child {
-  display: none;
-}
-/*#endregion*/
+    /*************FL/IL4 Documents ***************/
+    .document9-Section1,
+    .document10-Section1,
+    .document11-Section1,
+    .document12-Section1,
+    .document13-Section1,
+    .document14-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
 
+    .document9-Section1 a,
+    .document10-Section1 a,
+    .document11-Section1 a,
+    .document12-Section1 a,
+    .document13-Section1 a,
+    .document14-Section1 a {
+        color: #000000 !important;
+    }
 
-/*************MN Loan Documents ***************/
-.ocumentNM-02-Section1, .ocumentNM-01-Section1 {
-  margin: auto!important;
-  width: 100%;
-  padding: 8% 0;
-  word-wrap: break-word;
-}
-.ocumentNM-02-Section1 a, .ocumentNM-01-Section1 a {
-  color:#000000!important;
-}
-.ocumentNM-02-Section1 table, .ocumentNM-01-Section1 table {
-  margin: 10px 0px !important;
-  width: 100%!important;
-  border-radius: 0px;
-}
-.ocumentNM-02-Section1 div:last-child  p:last-child, .ocumentNM-01-Section1 div:last-child  p:last-child {
-  display: none;
-}
-/*#endregion*/
+    .document9-Section1 table,
+    .document10-Section1 table,
+    .document11-Section1 table,
+    .document12-Section1 table,
+    .document13-Section1 table,
+    .document14-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
 
-/*************Media Queries ***************/
-@media only screen and (max-width: 320px) {
-.document1-Section1 table:first-child tr td {
-  max-width: fit-content!important
-}    
-.document1-Section1 table:nth-of-type(1) tr td {
-   max-width: 66px;
-}  
-.document1-Section1 div:nth-of-type(2) table tr td p {
-  font-size: 9.5px!important;
-}
-}
-@media screen and (min-width: 320px) and (max-width: 412px) {
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10){
-    margin-left: 22vw!important;
-    text-indent: -22vw!important;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child{
-        margin-right: -2vw!important;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12),
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13),
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14){
-    margin-left: 22vw!important;
-    text-indent: -27vw!important;
-}
-}
-@media screen and (min-width: 413px) and (max-width: 415px) {
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) {
-    margin-left: 20vw!important;
-    text-indent: -20vw!important;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child{
-        margin-right: -2vw!important;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12), .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13), .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14) {
-    margin-left: 30vw!important;
-    text-indent: -35vw!important;
-    font-size: 2.4vw!important;
-}
-}
-@media only screen and (max-width: 480px) {
+    .document9-Section1 div:last-child p:last-child,
+    .document10-Section1 div:last-child p:last-child,
+    .document11-Section1 div:last-child p:last-child,
+    .document12-Section1 div:last-child p:last-child,
+    .document13-Section1 div:last-child p:last-child,
+    .document14-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
-/***********REGION RESPONSIVE DOCUMENT1*************/
- .document1-Section1 table {
-    display: block;
-    width: 100%!important;
-  }
-.document1-Section1 p {
-  font-size: 3.13vw!important;
- }
+    .document11-Section1 p:nth-of-type(1) {
+        margin-left: auto !important;
+        text-align: center;
+    }
 
-.document1-Section1 div:nth-of-type(1) table tr td p {
-  font-size: 3vw!important;
-}
-.document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p {
-  display:flex;
-}
-.document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p span {
-    font-size: 2.45vw;
-}
-.document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(1) {
-  font-size: 2.2vw;
-  width: 9vw;
-}
-.document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2) {
-  display:none!important;
-}
-.document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:first-child, .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:nth-of-type(2), .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:first-child,  .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:nth-of-type(2)   {
-  width: 4vw!important;
-}
-.document1-Section1 div:nth-of-type(1) table tr:nth-of-type(1) td:first-child p {
-  display:flex;
-}
-.document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(1){
-  width:30%!important;
-}
-.document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(2){
-  width:100%;
-}
-.document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:nth-of-type(2) p span:nth-of-type(3) {
-  display:none!important;
-}
-.document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:first-child p:first-child span:nth-of-type(2) {
-  width:10vw!important;
-}
-.document1-Section1 table:nth-of-type(1) tr td p {
-  font-size: 1.9vw!important;
-}
-.document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td p {
-  margin-top: 2px!important;
-}
-.document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td {
-  padding: 0.3em 0.1em 0.1em!important;
-}
-.document1-Section1 table:nth-of-type(1) tr td {
-  padding: 0.2em!important;
-  width: 25%!important;
-}
-.document1-Section1 table:nth-of-type(2) {
-border-style: none!important;
-box-shadow: none;
-}
-.document1-Section1 table:nth-of-type(2) tr td {
-border-style: none!important;
-}
+    .document11-Section1 p:nth-of-type(1) span::nth-of-type(1) {
+        display: none !important;
+    }
 
+    .document13-Section1 table:nth-of-type(2) tr:last-child td table {
+        border-style: hidden;
+        box-shadow: 0 0 0 black;
+    }
 
+    .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p span {
+        display: inline !important;
+    }
 
-/********REGION RESPONSIVE DOCUMENT3**************/
-.document3-Section1 table {
-  display: block;
-}
-.document3-Section1 table:nth-of-type(1) table {
-  display: block;
-  max-width: 100%;
-}
-.document3-Section1 table:nth-of-type(1) table:first-child tr td{
-  max-width: 20vw;
-  overflow-wrap: break-word;
-}
-.document3-Section1 table:nth-of-type(1) table:last-child tr td {
-  max-width: 8em!important;
-}
-.document3-Section1 ol li {
-  margin-left: 10pt!important;
-  padding-left: 0pt!important;
-}
+    .document13-Section1 p:nth-of-type(5) span:nth-of-type(1),
+    .document13-Section1 p:nth-of-type(5) span:nth-of-type(2),
+    .document13-Section1 p:nth-of-type(5) span:nth-of-type(3),
+    .document13-Section1 p:nth-of-type(6) span:nth-of-type(1),
+    .document13-Section1 p:nth-of-type(6) span:nth-of-type(2),
+    .document13-Section1 p:nth-of-type(6) span:nth-of-type(3),
+    .document13-Section1 p:nth-of-type(7) span:nth-of-type(1),
+    .document13-Section1 p:nth-of-type(7) span:nth-of-type(2),
+    .document13-Section1 p:nth-of-type(7) span:nth-of-type(3) {
+        display: none !important;
+    }
 
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:first-child table:first-child tr td:first-child p {
+        max-width: 2em;
+        margin: auto;
+        line-height: normal !important;
+    }
 
-/***********REGION RESPONSIVE DOCUMENT4*************/
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:first-child,
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:first-child,
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:first-child,
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:first-child{
-    max-width:10vw;
-    word-wrap: break-word;
-    width:22%!important;
-}
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2) table:first-child tr td:first-child p {
+        max-width: 7em;
+        margin: auto;
+        line-height: normal !important;
+    }
 
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:nth-of-type(2),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:nth-of-type(2),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:nth-of-type(2),
-.document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2){
-    max-width:10vw;
-    width:70%!important;
-}
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(3) table:first-child tr td:first-child p {
+        max-width: 4em;
+        margin: auto;
+        line-height: normal !important;
+    }
 
-.document4-Section1 div:nth-of-type(2) table img {
-    width: 100%;
-    height: auto;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:first-child,
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:first-child,
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(4) td:first-child{
-    max-width:10vw;
-    word-wrap: break-word;
-    width:22%!important;
-}
+    .document13-Section1 table:nth-of-type(3) {
+        border-style: none;
+        box-shadow: 0 0 0 black;
+    }
 
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:nth-of-type(2),
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2),
-.document4-Section1 div:nth-of-type(3) table  tr:nth-of-type(4) td:nth-of-type(2){
-    word-wrap: break-word;
-    max-width: 10vw;
-    width: 70%!important;
-}
-.document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p{
-    font-size:2.6vw!important;
-}
-.document4-Section1 div:nth-of-type(3) table {
-    width:100%!important;
-}
-.document4-Section1 p {
-    font-size:10px!important;
-}
-.document4-Section1 div:nth-of-type(1) table tr td p{
-    font-size: 2.6vw!important;
-}
-/***********REGION RESPONSIVE DOCUMENT5*************/
-.document5-Section1 {
-    overflow-x: hidden;
-}
-div.document5-Section1 table:nth-of-type(1) td{
-    max-width: 1vw;
-    border-style: none;
-}
-div.document5-Section1 table:nth-of-type(1) {
-    border-style: none;
-    box-shadow: none;
-}
-.document5-Section1 table:nth-of-type(2) td{
-    max-width: 1vw;
-    border-style: none;
-}
-.document5-Section1 table:nth-of-type(2) tr td p{
-    font-size: 3.3vw!important;
-}
-
-/***********REGION RESPONSIVE DOCUMENT8*************/
-.document8-Section1 table:nth-of-type(1) tr td {
-    max-width: 10vw;
-    word-wrap: break-word;
-    width: auto!important;
-}
-.document8-Section1 table:nth-of-type(2) tr td {
-    word-wrap: break-word;
-    max-width: 22vw;
-    width: auto!important;
-    border-style: none;
-    padding: 0!important;
-    border-top-width: 1px!important;
-    border-left-width: 1px!important;
-}
-.document8-Section1 table:nth-of-type(2) tr:first-child td p,
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(2) td p,
-.document8-Section1 table:nth-of-type(2) tr:nth-of-type(3) td p{
-    font-size: 3vw!important;
-}
-.document8-Section1 p:nth-of-type(3) span, 
-.document8-Section1 p:nth-of-type(5) span{
-    word-wrap: break-word;
-    max-width: 22vw;
-    width: auto!important;
-}
-
-  /*************FL/IL4 Documents ***************/
-  .document13-Section1 p {
-    font-size: 3vw!important;
-  }
-  .document13-Section1 table:nth-of-type(1) tr td p {
-    font-size: 2.74vw!important;
-    line-height: 2vh;
-  }
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3){
-    display: none;
-  }
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) a:nth-of-type(2) span:nth-of-type(1){
-    display: none;
-  }
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1),
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p{
-    display: flex;
-  }
-  .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) span:nth-of-type(1) {
-     margin-right: 3vw;
-  }
-  .document13-Section1 table:nth-of-type(2) tr td p {
-    font-size: 3vw!important;
-    line-height: 2vh;
-  }
-  .document13-Section1 table tr td {
-     max-width: 22vw!important;
-  }
- .document13-Section1 table:nth-of-type(2) tr td p {
-    font-size: 2.5vw!important;
-    line-height: 2vh;
-  }
-  .document13-Section1 table tr td{
-    max-width: 0em!important;
-    word-wrap: break-word;
-  } 
-  .document13-Section1 table:nth-of-type(2) tr:last-child td:last-child table:first-child tr td:first-child p{
-    width: 10vw;
-    margin: auto;
-    line-height: normal!important;
-  }
-  .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2)  table:first-child tr td:first-child p{
-    width: 14vw;
-    margin: auto;
-    line-height: normal!important;
-  }
-  .document13-Section1 table:nth-of-type(2) tr:last-child td:first-child  table:first-child tr td:first-child p{
-    width: 4vw;
-    margin: auto;
-    line-height: normal!important;
-  }
-  .document13-Section1 table:nth-of-type(3) {
-    border-style: none;
-    box-shadow: 0 0 0 black;
-  }
-  .document13-Section1 table:nth-of-type(3) tr td{
-    padding: 0rem;
-    border-style: none;
-  }
-  .document13-Section1 table:nth-of-type(3) tr td p {
-    font-size: 1.7vw!important;
-    line-height: normal;
-  }
-  .document13-Section1 table:nth-of-type(3) tr:nth-of-type(1), 
-  .document13-Section1 table:nth-of-type(3) tr:nth-of-type(2),
-  .document13-Section1 table:nth-of-type(3) tr:nth-of-type(3){
-    height: 3em!important;
-  }
-  .document13-Section1 table:last-child tr td p{
-    font-size: 2.8vw!important;
-    line-height: normal;
-  }
-  .document13-Section1 table:nth-of-type(4) tr td p {
-    font-size: 1.68vw!important;
-  }
-     
-  /*************MO Documents ***************/
-  .ocumentMO-02-Section1 table tr td, .ocumentMO-02-Section1 table tr td {
-    max-width: 0em!important;
-    word-wrap: break-word;
-  }   
+    .document13-Section1 table:nth-of-type(3) td {
+        border-style: none;
+    }
+    /*#endregion*/
 
     /*************MO Documents ***************/
-  .ocumentNM-02-Section1 table tr td, .ocumentNM-01-Section1 table tr td {
-    max-width: 3em;
-  }   
-}
+    .ocumentMO-01-Section1,
+    .ocumentMO-02-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
 
-/* print styles */
-@media print {
- .document13-Section1 p {
-    font-size: inherit!important;
-    background: #fefead;
-  }
-}
+    .ocumentMO-01-Section1 table,
+    .ocumentMO-02-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .ocumentMO-01-Section1 div:last-child p:last-child,
+    .ocumentMO-02-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
+    /*#endregion*/
+
+    /*************MN Loan Documents ***************/
+    .ocumentNM-02-Section1,
+    .ocumentNM-01-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+
+    .ocumentNM-02-Section1 a,
+    .ocumentNM-01-Section1 a {
+        color: #000000 !important;
+    }
+
+    .ocumentNM-02-Section1 table,
+    .ocumentNM-01-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .ocumentNM-02-Section1 div:last-child p:last-child,
+    .ocumentNM-01-Section1 div:last-child p:last-child {
+        display: none;
+    }
+    /*#endregion*/
+
+    /*************MO Documents ***************/
+    .documentMO-01-Section1, .documentMO-02-Section1{
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+
+    .documentMO-01-Section1 a,
+    .documentMO-02-Section1 a {
+        color: #000000 !important;
+    }
+
+    .documentMO-01-Section1 table,
+    .documentMO-02-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .documentMO-01-Section1 div:last-child p:last-child,
+    .documentMO-02-Section1 div:last-child p:last-child {
+        display: none;
+    }
+    /*#endregion*/
+
+    
+
+
+    
+
+
+
+    /*************Media Queries ***************/
+    @media only screen and (max-width: 320px) {
+        .document1-Section1 table:first-child tr td {
+            max-width: fit-content !important
+        }
+
+        .document1-Section1 table:nth-of-type(1) tr td {
+            max-width: 66px;
+        }
+
+        .document1-Section1 div:nth-of-type(2) table tr td p {
+            font-size: 9.5px !important;
+        }
+    }
+
+    @media screen and (min-width: 320px) and (max-width: 412px) {
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) {
+            margin-left: 22vw !important;
+            text-indent: -22vw !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child {
+            margin-right: -2vw !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14) {
+            margin-left: 22vw !important;
+            text-indent: -27vw !important;
+        }
+    }
+
+    @media screen and (min-width: 413px) and (max-width: 415px) {
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) {
+            margin-left: 20vw !important;
+            text-indent: -20vw !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(10) span:first-child {
+            margin-right: -2vw !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(12),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(13),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14) {
+            margin-left: 30vw !important;
+            text-indent: -35vw !important;
+            font-size: 2.4vw !important;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+
+        /***********REGION RESPONSIVE DOCUMENT1*************/
+        .document1-Section1 table {
+            display: block;
+            width: 100% !important;
+        }
+
+        .document1-Section1 p {
+            font-size: 3.13vw !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr td p {
+            font-size: 3vw !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p {
+            display: flex;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p span {
+            font-size: 2.45vw;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(1) {
+            font-size: 2.2vw;
+            width: 9vw;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(2) span:nth-of-type(2) {
+            display: none !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:first-child,
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(3) span:nth-of-type(2),
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:first-child,
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(4) span:nth-of-type(2),
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:first-child,
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(5) span:nth-of-type(2),
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:first-child,
+        .document1-Section1 div:nth-of-type(1) table tr:first-child td:nth-of-type(2) p:nth-of-type(6) span:nth-of-type(2) {
+            width: 4vw !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(1) td:first-child p {
+            display: flex;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(1) {
+            width: 30% !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr td:first-child p span:nth-of-type(2) {
+            width: 100%;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:nth-of-type(2) p span:nth-of-type(3) {
+            display: none !important;
+        }
+
+        .document1-Section1 div:nth-of-type(1) table tr:nth-of-type(2) td:first-child p:first-child span:nth-of-type(2) {
+            width: 10vw !important;
+        }
+
+        .document1-Section1 table:nth-of-type(1) tr td p {
+            font-size: 1.9vw !important;
+        }
+
+        .document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td p {
+            margin-top: 2px !important;
+        }
+
+        .document1-Section1 table:nth-of-type(1) tr:nth-of-type(2) td {
+            padding: 0.3em 0.1em 0.1em !important;
+        }
+
+        .document1-Section1 table:nth-of-type(1) tr td {
+            padding: 0.2em !important;
+            width: 25% !important;
+        }
+
+        .document1-Section1 table:nth-of-type(2) {
+            border-style: none !important;
+            box-shadow: none;
+        }
+
+        .document1-Section1 table:nth-of-type(2) tr td {
+            border-style: none !important;
+        }
+
+
+
+        /********REGION RESPONSIVE DOCUMENT3**************/
+        .document3-Section1 table {
+            display: block;
+        }
+
+        .document3-Section1 table:nth-of-type(1) table {
+            display: block;
+            max-width: 100%;
+        }
+
+        .document3-Section1 table:nth-of-type(1) table:first-child tr td {
+            max-width: 20vw;
+            overflow-wrap: break-word;
+        }
+
+        .document3-Section1 table:nth-of-type(1) table:last-child tr td {
+            max-width: 8em !important;
+        }
+
+        .document3-Section1 ol li {
+            margin-left: 10pt !important;
+            padding-left: 0pt !important;
+        }
+
+
+        /***********REGION RESPONSIVE DOCUMENT4*************/
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:first-child,
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:first-child,
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:first-child,
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:first-child {
+            max-width: 10vw;
+            word-wrap: break-word;
+            width: 22% !important;
+        }
+
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(2) td:nth-of-type(2),
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(3) td:nth-of-type(2),
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(4) td:nth-of-type(2),
+        .document4-Section1 div:nth-of-type(2) table tr:nth-of-type(5) td:nth-of-type(2) {
+            max-width: 10vw;
+            width: 70% !important;
+        }
+
+        .document4-Section1 div:nth-of-type(2) table img {
+            width: 100%;
+            height: auto;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:first-child,
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:first-child,
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(4) td:first-child {
+            max-width: 10vw;
+            word-wrap: break-word;
+            width: 22% !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(2) td:nth-of-type(2),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2),
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(4) td:nth-of-type(2) {
+            word-wrap: break-word;
+            max-width: 10vw;
+            width: 70% !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p {
+            font-size: 2.6vw !important;
+        }
+
+        .document4-Section1 div:nth-of-type(3) table {
+            width: 100% !important;
+        }
+
+        .document4-Section1 p {
+            font-size: 10px !important;
+        }
+
+        .document4-Section1 div:nth-of-type(1) table tr td p {
+            font-size: 2.6vw !important;
+        }
+
+        /***********REGION RESPONSIVE DOCUMENT5*************/
+        .document5-Section1 {
+            overflow-x: hidden;
+        }
+
+        div.document5-Section1 table:nth-of-type(1) td {
+            max-width: 1vw;
+            border-style: none;
+        }
+
+        div.document5-Section1 table:nth-of-type(1) {
+            border-style: none;
+            box-shadow: none;
+        }
+
+        .document5-Section1 table:nth-of-type(2) td {
+            max-width: 1vw;
+            border-style: none;
+        }
+
+        .document5-Section1 table:nth-of-type(2) tr td p {
+            font-size: 3.3vw !important;
+        }
+
+        /***********REGION RESPONSIVE DOCUMENT8*************/
+        .document8-Section1 table:nth-of-type(1) tr td {
+            max-width: 10vw;
+            word-wrap: break-word;
+            width: auto !important;
+        }
+
+        .document8-Section1 table:nth-of-type(2) tr td {
+            word-wrap: break-word;
+            max-width: 22vw;
+            width: auto !important;
+            border-style: none;
+            padding: 0 !important;
+            border-top-width: 1px !important;
+            border-left-width: 1px !important;
+        }
+
+        .document8-Section1 table:nth-of-type(2) tr:first-child td p,
+        .document8-Section1 table:nth-of-type(2) tr:nth-of-type(2) td p,
+        .document8-Section1 table:nth-of-type(2) tr:nth-of-type(3) td p {
+            font-size: 3vw !important;
+        }
+
+        .document8-Section1 p:nth-of-type(3) span,
+        .document8-Section1 p:nth-of-type(5) span {
+            word-wrap: break-word;
+            max-width: 22vw;
+            width: auto !important;
+        }
+
+        /*************FL/IL4 Documents ***************/
+        .document13-Section1 p {
+            font-size: 3vw !important;
+        }
+
+        .document13-Section1 table:nth-of-type(1) tr td p {
+            font-size: 2.74vw !important;
+            line-height: 2vh;
+        }
+
+        .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3) {
+            display: none;
+        }
+
+        .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) a:nth-of-type(2) span:nth-of-type(1) {
+            display: none;
+        }
+
+        .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1),
+        .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p {
+            display: flex;
+        }
+
+        .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(1) p:nth-of-type(1) span:nth-of-type(1) {
+            margin-right: 3vw;
+        }
+
+        .document13-Section1 table:nth-of-type(2) tr td p {
+            font-size: 3vw !important;
+            line-height: 2vh;
+        }
+
+        .document13-Section1 table tr td {
+            max-width: 22vw !important;
+        }
+
+        .document13-Section1 table:nth-of-type(2) tr td p {
+            font-size: 2.5vw !important;
+            line-height: 2vh;
+        }
+
+        .document13-Section1 table tr td {
+            max-width: 0em !important;
+            word-wrap: break-word;
+        }
+
+        .document13-Section1 table:nth-of-type(2) tr:last-child td:last-child table:first-child tr td:first-child p {
+            width: 10vw;
+            margin: auto;
+            line-height: normal !important;
+        }
+
+        .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2) table:first-child tr td:first-child p {
+            width: 14vw;
+            margin: auto;
+            line-height: normal !important;
+        }
+
+        .document13-Section1 table:nth-of-type(2) tr:last-child td:first-child table:first-child tr td:first-child p {
+            width: 4vw;
+            margin: auto;
+            line-height: normal !important;
+        }
+
+        .document13-Section1 table:nth-of-type(3) {
+            border-style: none;
+            box-shadow: 0 0 0 black;
+        }
+
+        .document13-Section1 table:nth-of-type(3) tr td {
+            padding: 0rem;
+            border-style: none;
+        }
+
+        .document13-Section1 table:nth-of-type(3) tr td p {
+            font-size: 1.7vw !important;
+            line-height: normal;
+        }
+
+        .document13-Section1 table:nth-of-type(3) tr:nth-of-type(1),
+        .document13-Section1 table:nth-of-type(3) tr:nth-of-type(2),
+        .document13-Section1 table:nth-of-type(3) tr:nth-of-type(3) {
+            height: 3em !important;
+        }
+
+        .document13-Section1 table:last-child tr td p {
+            font-size: 2.8vw !important;
+            line-height: normal;
+        }
+
+        .document13-Section1 table:nth-of-type(4) tr td p {
+            font-size: 1.68vw !important;
+        }
+
+        /*************MO Documents ***************/
+        .ocumentMO-02-Section1 table tr td,
+        .ocumentMO-02-Section1 table tr td {
+            max-width: 0em !important;
+            word-wrap: break-word;
+        }
+
+        /*************MO Documents ***************/
+        .ocumentNM-02-Section1 table tr td,
+        .ocumentNM-01-Section1 table tr td {
+            max-width: 3em;
+        }
+    }
+
+    /* print styles */
+    @media print {
+        .document13-Section1 p {
+            font-size: inherit !important;
+            background: #fefead;
+        }
+    }
