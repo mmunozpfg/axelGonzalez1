@@ -855,9 +855,14 @@
         }
 
         .document13-Section1 table:nth-of-type(2) {
-            border-collapse: inherit;
+            border-collapse: inherit !important;
             border-top: 3px solid black !important;
             border-left: 3px solid black !important;
+        }
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(1),
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(2),
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(3){
+            border: 2px solid black !important;
         }
         
 
