@@ -855,6 +855,7 @@
         }
 
         .document13-Section1 table:nth-of-type(2) {
+            background-color: red;
             border-top: 3px solid black !important;
             border-left: 3px solid black !important;
         }
