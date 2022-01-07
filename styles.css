@@ -868,7 +868,11 @@
             border-top: 0 !important;
             border-left: 1px solid #ccc !important;
             border-right: 1px solid #ccc !important;
-        }      
+        } 
+        
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(4) table td{
+            border: 2px solid black !important;
+        }
 
         .document13-Section1 table:nth-of-type(3) tr td {
             padding: 0rem;
