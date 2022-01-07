@@ -859,7 +859,16 @@
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(3) td{
             border: 2px solid black !important;
         }
-        
+
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(4) td,
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(5) td,
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(6) td,
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(7) td,
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(8) td{
+            border-top: 0;
+            border-left: 1px solid #ccc;
+            border-right: 1px solid #ccc;
+        }      
 
         .document13-Section1 table:nth-of-type(3) tr td {
             padding: 0rem;
