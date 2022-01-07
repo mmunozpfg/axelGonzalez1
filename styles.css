@@ -871,6 +871,10 @@
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(4) table td{
             border: 2px solid black !important;
         }
+        .document13-Section1 table:nth-of-type(2) tr:nth-of-type(4) table{
+            box-shadow: none;
+            border: 0;
+        }
 
         .document13-Section1 table:nth-of-type(3) tr td {
             padding: 0rem;
