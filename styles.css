@@ -865,9 +865,7 @@
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(6) td,
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(7) td,
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(8) td{
-            border-top: 0 !important;
-            border-left: 1px solid #ccc !important;
-            border-right: 1px solid #ccc !important;
+            border: 0 !important
         } 
         
         .document13-Section1 table:nth-of-type(2) tr:nth-of-type(4) table td{
