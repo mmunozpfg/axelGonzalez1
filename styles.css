@@ -555,6 +555,7 @@
          {
              border-left: 0 !important;
              border-right: 0 !important;
+             border-style: none !important;
          }
     }
 
