@@ -546,10 +546,6 @@
             margin-left: 22vw !important;
             text-indent: -27vw !important;
         }
-
-        .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
-            border-top: 1px solid #000000 !important;
-        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
@@ -568,6 +564,10 @@
             margin-left: 30vw !important;
             text-indent: -35vw !important;
             font-size: 2.4vw !important;
+        }
+
+        .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
+            border-top: 1px solid #000000 !important;
         }
     }
 
