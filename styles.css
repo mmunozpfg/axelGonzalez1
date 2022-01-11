@@ -824,6 +824,7 @@
             word-wrap: break-word;
             max-width: 22vw;
             width: auto !important;
+            overflow: hidden;
         }
 
 
