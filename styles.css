@@ -572,6 +572,10 @@
             width: 100% !important;
         }
 
+        .document1-Section1 table:nth-of-type(3) {
+            background-color: yellow;
+        }
+
         .document1-Section1 p {
             font-size: 3.13vw !important;
         }
