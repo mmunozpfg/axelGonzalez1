@@ -546,6 +546,9 @@
             margin-left: 22vw !important;
             text-indent: -27vw !important;
         }
+        .document4-Section1 div tbody {
+            border-top-style: solid;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
