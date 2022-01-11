@@ -572,12 +572,7 @@
             width: 100% !important;
         }
 
-        .document1-Section1 table:nth-of-type(3),
-        .document1-Section1 table:nth-of-type(2)  {
-            background-color: yellow;
-        }
-
-        .document1-Section1 p {
+       .document1-Section1 p {
             font-size: 3.13vw !important;
         }
 
@@ -657,8 +652,12 @@
 
         .document1-Section1 table:nth-of-type(2) tr td {
             border-style: none !important;
+            width: auto!important;
         }
 
+        .document1-Section1 table:nth-of-type(2) tr td p {
+            font-size: 2.8vw !important;
+        }
 
 
         /********REGION RESPONSIVE DOCUMENT3**************/
