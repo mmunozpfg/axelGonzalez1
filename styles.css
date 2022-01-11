@@ -570,7 +570,7 @@
             border-top: 1px solid #000000 !important;
         }
 
-        .document1-Section1 div tbody tr td:nth-of-type(1) {
+        .document1-Section1 div tbody tr {
             border-top: 2px solid #000;
         }
 
