@@ -807,7 +807,7 @@
             border-width: 1px solid;             
             border-style: none;
             padding: 0 !important;
-            border: 1px !important;
+            border: 1px solid !important;
         }
 
         .document8-Section1 table:nth-of-type(2) tr:first-child td p,
