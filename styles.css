@@ -546,6 +546,9 @@
             margin-left: 22vw !important;
             text-indent: -27vw !important;
         }
+        .document8-Section1 table:nth-of-type(2) tr td {
+            border-width: 1px !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
