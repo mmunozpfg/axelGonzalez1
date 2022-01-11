@@ -822,11 +822,11 @@
         .document8-Section1 p:nth-of-type(3) span,
         .document8-Section1 p:nth-of-type(5) span {
             word-wrap: break-word;
-            max-width: 150px;
+            max-width: 22vw;
             width: auto !important;
             overflow: hidden;
             white-space: nowrap;
-            text-overflow: clip;
+            text-overflow: ellipsis;
         }
 
 
