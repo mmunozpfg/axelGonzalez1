@@ -263,7 +263,6 @@
     .document7-Section1 table tr td {
         border-style: none;
         white-space: nowrap;
-        overflow: wrap;
     }
 
     .document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
@@ -793,13 +792,6 @@
 
         .document5-Section1 table:nth-of-type(2) tr td p {
             font-size: 3.3vw !important;
-        }
-
-        /***********REGION RESPONSIVE DOCUMENT7*************/
-        .document7-Section1 table p {
-            background-color: #fefead;
-            white-space: nowrap;
-            overflow: wrap;
         }
 
         /***********REGION RESPONSIVE DOCUMENT8*************/
