@@ -825,6 +825,7 @@
             max-width: 22vw;
             width: auto !important;
             overflow: hidden;
+            white-space: nowrap;
         }
 
 
