@@ -804,6 +804,7 @@
             word-wrap: break-word;
             max-width: 22vw;
             width: auto !important;
+            border-width: 1px solid;             
             border-style: none;
             padding: 0 !important;
             border-width: 1px !important;
@@ -822,9 +823,6 @@
             width: auto !important;
         }
 
-        .document8-Section1 table:nth-of-type(2) tr td {
-            border-width: 1px solid;
-         }
 
         /*************FL/IL4 Documents ***************/
         .document13-Section1 p {
