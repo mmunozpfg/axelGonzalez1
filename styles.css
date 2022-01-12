@@ -562,6 +562,14 @@
             border: 0 !important;
             border-style: none !important;
         }
+
+        .document8-Section1 table:nth-child(-4n+2) span{
+            font-size: 9px;
+        }
+        
+        .document8-Section1 table:nth-child(-4n+2) td:nth-of-type(odd){
+            max-width: 10px;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
