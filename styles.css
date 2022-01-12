@@ -568,7 +568,7 @@
         }
         
         .document8-Section1 table:nth-child(-4n+2) td:nth-of-type(odd){
-            max-width: 10px;
+            max-width: 14px;
         }
     }
 
