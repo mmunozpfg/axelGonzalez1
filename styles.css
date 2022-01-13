@@ -642,6 +642,10 @@
             font-size: 3.13vw !important;
         }
 
+        .document1-Section1 p:nth-of-type(17) {
+            margin-bottom: 15px;
+        }
+
         .document1-Section1 div:nth-of-type(1) table tr td p {
             font-size: 3vw !important;
         }
