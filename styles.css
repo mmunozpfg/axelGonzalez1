@@ -377,6 +377,9 @@
         margin-left: auto !important;
         text-align: center;
     }
+    .document11-Section1 p:nth-of-type(48) {
+        margin-top: 15px !important;
+    }
 
     .document11-Section1 p:nth-of-type(1) span::nth-of-type(1) {
         display: none !important;
