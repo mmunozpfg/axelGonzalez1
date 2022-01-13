@@ -70,7 +70,6 @@
 
     /*************#REGION DOCUMENT4 ***************/
     .document4-Section1 {
-        background-color: aquamarine;
         margin: auto !important;
         width: 100%;
         padding: 8% 0;
@@ -263,6 +262,7 @@
 
     .document7-Section1 table tr td {
         border-style: none;
+        white-space: nowrap;
     }
 
     .document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
@@ -286,6 +286,8 @@
     .document8-Section1 table {
         width: 100% !important;
         border-radius: 0px;
+        border: 0 !important;
+        box-shadow: none !important;
     }
 
     .document8-Section1 table:nth-of-type(1) {
@@ -528,6 +530,10 @@
         .document1-Section1 div:nth-of-type(2) table tr td p {
             font-size: 9.5px !important;
         }
+
+        .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
+            border-top: 1px solid #000000 !important;
+        }
     }
 
     @media screen and (min-width: 320px) and (max-width: 412px) {
@@ -545,6 +551,42 @@
         .document4-Section1 div:nth-of-type(3) table tr:nth-of-type(3) td:nth-of-type(2) p:nth-of-type(14) {
             margin-left: 22vw !important;
             text-indent: -27vw !important;
+        }
+          
+         .document8-Section1 table:nth-of-type(2) tr:nth-child(4) td,
+         .document8-Section1 table:nth-of-type(2) tr:nth-child(5) td
+         {
+             border-left: 0 !important;
+             border-right: 0 !important;
+             border-style: none !important;
+         }
+
+         .document8-Section1 table:nth-of-type(2) td:only-child{
+            border: 0 !important;
+            border-style: none !important;
+        }
+
+        .document8-Section1 table:nth-child(-4n+2) span{
+            font-size: 8px;
+        }
+        .document8-Section1 table:nth-child(-4n+2) td{
+            padding-left: 0;
+            padding-right: 0;
+            text-decoration: none;
+            
+        }
+        .document8-Section1 table:nth-child(-4n+2) tr td{
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+            
+        }
+        .document8-Section1 table:nth-child(2) tr td:nth-child(3) {
+            width: auto !important;
+            max-width:20px;
+        }
+        .document8-Section1 table:nth-child(2) tr td:nth-child(4) {
+            width: auto !important;
+            max-width:50px;
         }
     }
 
@@ -565,6 +607,15 @@
             text-indent: -35vw !important;
             font-size: 2.4vw !important;
         }
+
+        .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
+            border-top: 1px solid #000000 !important;
+        }
+
+        .document1-Section1 div tbody tr {
+            border-top: 2px solid #000;
+        }
+
     }
 
     @media only screen and (max-width: 480px) {
@@ -660,6 +711,10 @@
 
         .document1-Section1 table:nth-of-type(2) tr td p {
             font-size: 2.8vw !important;
+        }
+
+        .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
+            border-top: 1px solid #000000 !important;
         }
 
 
@@ -780,9 +835,11 @@
             width: auto !important;
             border-style: none;
             padding: 0 !important;
-            border-top-width: 1px !important;
-            border-left-width: 1px !important;
+            border: 1px solid !important;
         }
+
+        
+
 
         .document8-Section1 table:nth-of-type(2) tr:first-child td p,
         .document8-Section1 table:nth-of-type(2) tr:nth-of-type(2) td p,
@@ -795,7 +852,11 @@
             word-wrap: break-word;
             max-width: 22vw;
             width: auto !important;
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
         }
+
 
         /*************FL/IL4 Documents ***************/
         .document13-Section1 p {
