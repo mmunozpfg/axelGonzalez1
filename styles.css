@@ -642,7 +642,7 @@
         }
 
         .document1-Section1 p:nth-of-type(17) {
-            margin-bottom: 15px;
+            margin-bottom: 15px!important;
         }
 
         .document1-Section1 div:nth-of-type(1) table tr td p {
