@@ -381,6 +381,9 @@
     .document11-Section1 p:nth-of-type(1) span::nth-of-type(1) {
         display: none !important;
     }
+    .document11-Section1 table:nth-of-type(3) {
+     margin-top: -25px !important;
+    }
 
     .document13-Section1 table:nth-of-type(2) tr:last-child td table {
         border-style: hidden;
