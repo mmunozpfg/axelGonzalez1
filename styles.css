@@ -376,6 +376,7 @@
     .document11-Section1 p:nth-of-type(1) {
         margin-left: auto !important;
         text-align: center;
+        font-size: 3vw!important;
     }
     .document13-Section1 p:nth-of-type(48) {
         margin-top: 15px !important;
