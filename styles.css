@@ -884,11 +884,11 @@
         }
 
         .document13-Section1 table:nth-of-type(1) td  {
-            border: 0 !important;
+            border: 1px solid #ccc !important;
         }
 
         .document13-Section1 table:nth-of-type(1) {
-            border: solid #ccc 1px !important;
+            border: 1px solid #ccc !important;
         }
 
         .document13-Section1 table:nth-of-type(1) tr:nth-of-type(1) td:nth-of-type(2) p:nth-of-type(3) {
