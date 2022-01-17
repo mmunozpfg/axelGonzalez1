@@ -587,8 +587,7 @@
             
         }
         .document8-Section1 table:nth-child(-4n+2) tr td{
-            padding-left: 0 !important;
-            padding-right: 0 !important;
+            padding: 0 !important;
             
         }
         .document8-Section1 table:nth-child(2) tr td:nth-child(3) {
