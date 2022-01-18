@@ -262,7 +262,7 @@
 
     .document7-Section1 table tr td {
         border-style: none;
-        white-space: nowrap;
+        white-space: inherit;
     }
 
     .document7-Section1 table:nth-of-type(2) tr td:nth-of-type(2) p,
