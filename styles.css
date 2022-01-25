@@ -618,6 +618,22 @@
         table {
             box-shadow: none !important;
         }
+        .ocumentMO-02-Section1 table {
+            border: 0;
+            box-shadow: none !important;
+          
+        }
+        
+        .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child {
+            border: none !important;
+            box-shadow: none !important;
+            background-color: #fefead;
+        }
+        
+        .ocumentMO-02-Section1 table tbody tr:only-child {
+            background-color: #fefead;
+            border: 0 !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
