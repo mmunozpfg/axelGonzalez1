@@ -609,7 +609,8 @@
         }
 
         .ocumentMO-02-Section1 table tbody tr td span,
-        .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child
+        .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child,
+        .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2)
         {
             border: 0 !important;    
         }
