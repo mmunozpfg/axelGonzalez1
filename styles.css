@@ -603,6 +603,8 @@
         .ocumentMO-02-Section1 table td:nth-child(even) p
         {
             font-size: 8px !important;
+            border: 0 !important;
+            padding: 0 !important;
         }
     }
 
