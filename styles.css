@@ -627,12 +627,14 @@
         .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child {
             border: none !important;
             box-shadow: none !important;
-            background-color: #fefead;
         }
         
         .ocumentMO-02-Section1 table tbody tr:only-child {
-            background-color: #fefead;
             border: 0 !important;
+        }
+
+        .ocumentMO-02-Section1 table tbody tr td {
+            border: none;
         }
     }
 
