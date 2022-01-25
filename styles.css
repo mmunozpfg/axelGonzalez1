@@ -614,6 +614,10 @@
         {
             border: 0 !important;    
         }
+
+        table {
+            box-shadow: none !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
