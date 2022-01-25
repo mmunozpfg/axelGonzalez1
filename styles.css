@@ -598,6 +598,12 @@
             width: auto !important;
             max-width:35px;
         }
+        .ocumentMO-02-Section1 table td:nth-child(odd) p:nth-child(2),
+        .ocumentMO-02-Section1 table td:nth-child(odd) p:first-child,
+        .ocumentMO-02-Section1 table td:nth-child(even) p
+        {
+            font-size: 8px !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
