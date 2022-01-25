@@ -608,7 +608,9 @@
             box-shadow: 0 0 0 0 !important;
         }
 
-        .ocumentMO-02-Section1 table tbody tr td span{
+        .ocumentMO-02-Section1 table tbody tr td span,
+        .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child
+        {
             border: 0 !important;    
         }
     }
