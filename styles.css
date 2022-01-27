@@ -521,7 +521,11 @@
     }
 
     .ocumentMN-01-Section1 p:nth-of-type(11) {
-        margin-top: 40px !important;
+        margin-top: 45px !important;
+    }
+
+    .ocumentMN-01-Section1 p:nth-of-type(27) {
+        margin-top: 10px !important;
     }
 
     /*#endregion*/
