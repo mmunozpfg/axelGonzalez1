@@ -544,6 +544,10 @@
         border-radius: 0px;
     }
 
+    .ocumentMN-01-Section1 table td{
+        border: 1px solid #ccc !important;
+    }  
+
     .ocumentMN-01-Section1 div:last-child p:last-child {
         display: none;
     }
