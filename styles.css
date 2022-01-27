@@ -628,6 +628,7 @@
             border: none !important;
             box-shadow: none !important;
             word-spacing: 100px;
+            text-align: center;
         }
         
         .ocumentMO-02-Section1 table tbody tr:only-child {
@@ -642,6 +643,7 @@
             border: none !important;
             box-shadow: none !important;
             word-spacing: 100px;
+            text-align: center;
         }
     }
 
