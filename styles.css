@@ -545,14 +545,14 @@
     }
 
     .ocumentMN-01-Section1 table tbody tr:nth-of-type(9){
-        display: none;
+        display: none !important;
     }
 
     .ocumentMN-01-Section1 p:nth-of-type(4),
     .ocumentMN-01-Section1 p:nth-of-type(5),
     .ocumentMN-01-Section1 p:nth-of-type(6),
     .ocumentMN-01-Section1 p:nth-of-type(7) {
-        margin-left: 0;
+        margin-left: 0 !important;
     }
 
     .ocumentMN-01-Section1 table td{
