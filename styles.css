@@ -645,6 +645,10 @@
             word-spacing: 100px;
             text-align: center;
         }
+
+        .ocumentNM-02-Section1 table tbody tr:only-child {
+            border: 0 !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
