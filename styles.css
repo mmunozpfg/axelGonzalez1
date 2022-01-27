@@ -556,7 +556,15 @@
     .ocumentMN-01-Section1 table td{
         border-top: 0 !important; 
         border-left: 0 !important
-    }  
+    } 
+    
+    .ocumentMN-01-Section1 tabler:nth-of-type(1) tr:nth-of-type(1){
+        border-top: 1px solid black !important;
+    } 
+
+    .ocumentMN-01-Section1 table tr{
+        border-left: 1px solid black !important;
+    } 
 
     .ocumentMN-01-Section1 div:last-child p:last-child {
         display: none;
