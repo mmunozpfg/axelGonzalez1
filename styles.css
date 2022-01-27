@@ -544,6 +544,13 @@
         border-radius: 0px;
     }
 
+    .ocumentMN-01-Section1 p:nth-of-type(4),
+    .ocumentMN-01-Section1 p:nth-of-type(5),
+    .ocumentMN-01-Section1 p:nth-of-type(6),
+    .ocumentMN-01-Section1 p:nth-of-type(7) {
+        margin-left: 0;
+    }
+
     .ocumentMN-01-Section1 table td{
         border: 1px solid #ccc !important;
     }  
