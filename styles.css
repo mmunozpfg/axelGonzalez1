@@ -519,6 +519,11 @@
     .documentMO-02-Section1 div:last-child p:last-child {
         display: none;
     }
+
+    .ocumentMN-01-Section1 p:nth-of-type(11) {
+        margin-top: 40px !important;
+    }
+
     /*#endregion*/
 
     
