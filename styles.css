@@ -530,6 +530,10 @@
         word-wrap: break-word;
     }
 
+    .ocumentMN-01-Section1 table p{
+        font-size: 11px !important;
+    }
+
     .ocumentMN-01-Section1 a {
         color: #000000 !important;
     }
