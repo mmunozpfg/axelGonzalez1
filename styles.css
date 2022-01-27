@@ -598,6 +598,8 @@
             width: auto !important;
             max-width:35px;
         }
+        /* MISSOURI DOCUMENTS */
+
         .ocumentMO-02-Section1 table td:nth-child(odd) p:nth-child(2),
         .ocumentMO-02-Section1 table td:nth-child(odd) p:first-child,
         .ocumentMO-02-Section1 table td:nth-child(even) p
@@ -639,6 +641,7 @@
             border: none;
         }
 
+        /* NEW MEXICO DOCUMENTS */
         .ocumentNM-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child {
             border: none !important;
             box-shadow: none !important;
