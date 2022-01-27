@@ -558,8 +558,12 @@
         border-left: 0 !important
     } 
     
-    .ocumentMN-01-Section1 tabler:nth-of-type(1) tr:nth-of-type(1){
+    .ocumentMN-01-Section1 table:nth-of-type(1) tr:nth-of-type(1){
         border-top: 1px solid black !important;
+    } 
+
+    .ocumentMN-01-Section1 table:nth-of-type(1) tr:nth-of-type(8){
+        border-left: 0 !important;
     } 
 
     .ocumentMN-01-Section1 table tr{
