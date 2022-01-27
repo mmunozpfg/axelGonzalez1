@@ -559,8 +559,8 @@
     }
 
     .ocumentMN-01-Section1 table td{
-        border-top: 1px solid #ccc !important; 
-        border-left: 1px solid #ccc !important;
+        border-top: 0 !important; 
+        border-left: 0 !important;
     }  
 
     .ocumentMN-01-Section1 div:last-child p:last-child {
