@@ -561,6 +561,7 @@
     .ocumentMN-01-Section1 table td{
         border-top: 0 !important; 
         border-left: 0 !important;
+        border-left: 1px solid black !important;
     }  
 
     .ocumentMN-01-Section1 div:last-child p:last-child {
