@@ -585,12 +585,7 @@
             border-top: 1px solid #000000 !important;
         }
 
-        .ocumentMN-01-Section1 p:nth-of-type(4),
-    .ocumentMN-01-Section1 p:nth-of-type(5),
-    .ocumentMN-01-Section1 p:nth-of-type(6),
-    .ocumentMN-01-Section1 p:nth-of-type(7) {
-        margin-left: 0 !important;
-    }
+       
     }
 
     @media screen and (min-width: 320px) and (max-width: 412px) {
@@ -661,6 +656,13 @@
         .ocumentMO-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2)
         {
             border: 0 !important;    
+        }
+
+        .ocumentMN-01-Section1 p:nth-of-type(4),
+        .ocumentMN-01-Section1 p:nth-of-type(5),
+        .ocumentMN-01-Section1 p:nth-of-type(6),
+        .ocumentMN-01-Section1 p:nth-of-type(7) {
+            margin-left: 0 !important;
         }
 
         table {
