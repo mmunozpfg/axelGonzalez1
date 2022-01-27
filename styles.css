@@ -637,6 +637,12 @@
         .ocumentMO-02-Section1 table tbody tr td {
             border: none;
         }
+
+        .ocumentNM-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child {
+            border: none !important;
+            box-shadow: none !important;
+            word-spacing: 100px;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
