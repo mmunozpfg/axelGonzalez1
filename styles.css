@@ -528,12 +528,6 @@
         margin-top: 10px !important;
     }
 
-    .ocumentNM-02-Section1 {
-        margin: auto !important;
-        width: 100%;
-        padding: 8% 0;
-        word-wrap: break-word;
-    }
 
     .ocumentNM-02-Section1  table:nth-of-type(1) tr:nth-of-type(1):only-child {
         word-spacing: 1000px;
