@@ -495,9 +495,9 @@
     }
 
     .ocumentNM-02-Section1  table:nth-of-type(1) tr:nth-of-type(1):only-child p{
-        max-width: 2em;
-        margin: auto;
-        line-height: normal !important;
+        word-spacing: 500px;
+        text-align: center;
+        word-wrap: break-word;
     }
 
     /*#endregion*/
