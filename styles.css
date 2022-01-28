@@ -534,13 +534,19 @@
         padding: 8% 0;
         word-wrap: break-word;
     }
+
+    .ocumentNM-02-Section1 table tbody:nth-last-of-type(odd) tr:nth-child(2) td:nth-of-type(2) p:only-child {
+        word-spacing: 200px;
+        text-align: center;
+    }
+
     /*#endregion*/
 
     
     /*************MN Loan Documents ***************/
     .ocumentMN-01-Section1 {
         margin: auto !important;
-        width: 100% !important;
+        width: 100%;
         padding: 8% 0;
         word-wrap: break-word;
     }
