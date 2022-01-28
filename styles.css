@@ -787,6 +787,10 @@
         .ocumentNM-02-Section1 table tr:only-child
         {
             border: 0 !important;  
+            border-left: 0 !important;
+            border-top: 0 !important;
+            border-bottom: 0 !important;
+            border-right: 0 !important;
         }
         .ocumentNM-02-Section1 div:last-child p:last-child {
             display: none;
