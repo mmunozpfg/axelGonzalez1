@@ -530,6 +530,7 @@
 
     .ocumentNM-02-Section1 {
         margin: auto !important;
+        width: 100%;
         padding: 8% 0;
         word-wrap: break-word;
     }
@@ -539,7 +540,7 @@
     /*************MN Loan Documents ***************/
     .ocumentMN-01-Section1 {
         margin: auto !important;
-        width: 100%;
+        width: 100% !important;
         padding: 8% 0;
         word-wrap: break-word;
     }
