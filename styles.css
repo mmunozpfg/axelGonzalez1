@@ -810,6 +810,10 @@
         .ocumentNM-02-Section1 table:nth-of-type(1) tr:nth-of-type(8) {
             border-left: 0 !important;
         }
+        .ocumentNM-02-Section1 table:nth-of-type(2) tr:nth-of-type(1):only-child
+            {
+                display: none !important;    
+            }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
