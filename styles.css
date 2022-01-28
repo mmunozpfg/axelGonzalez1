@@ -493,6 +493,13 @@
     .ocumentNM-01-Section1 div:last-child p:last-child {
         display: none;
     }
+
+    .ocumentNM-02-Section1  table:nth-of-type(1) tr:nth-of-type(1):only-child p{
+        max-width: 2em;
+        margin: auto;
+        line-height: normal !important;
+    }
+
     /*#endregion*/
 
     /*************MO Documents ***************/
@@ -526,13 +533,6 @@
 
     .ocumentMN-01-Section1 p:nth-of-type(27) {
         margin-top: 10px !important;
-    }
-
-
-    .ocumentNM-02-Section1  table:nth-of-type(1) tr:nth-of-type(1):only-child {
-        word-spacing: 1000px;
-        text-align: center;
-        word-wrap: break-word;
     }
 
     /*#endregion*/
@@ -816,11 +816,6 @@
             {
                 display: none !important;    
             }
-        .ocumentNM-02-Section1  table:nth-of-type(1) tr:nth-of-type(1):only-child {
-            word-spacing: 1000px;
-            text-align: center;
-            word-wrap: break-word;
-        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
