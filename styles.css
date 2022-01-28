@@ -797,6 +797,9 @@
             display: none !important;
             border: 0 !important;
         }
+        .ocumentNM-02-Section1 table:only-child{
+            border: 0 !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
