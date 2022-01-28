@@ -818,6 +818,7 @@
         }
         .ocumentNM-02-Section1 p:nth-of-type(8) {
             margin-bottom: 0 !important;
+            margin-top: 1px !important;
         }
     }
 
