@@ -825,12 +825,12 @@
         }
 
         .ocumentNM-01-Section1 p:nth-of-type(2) {
-            background-color: #fefead;
             margin-left: 0 !important;
         }
 
-        .ocumentNM-01-Section1 table p {
-            font-size: 8px;
+        .ocumentNM-01-Section1 table p,
+        .ocumentNM-01-Section1 table span {
+            font-size: 8px !important;
         }
     }
 
