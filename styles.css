@@ -1230,9 +1230,11 @@
         }
 
         /*************MO Documents ***************/
-        .ocumentNM-02-Section1 table tr td,
-        .ocumentNM-01-Section1 table tr td {
+        .ocumentNM-02-Section1 table tr td{
             max-width: 3em;
+        }
+        .ocumentNM-01-Section1 table tr td {
+            max-width: auto;
         }
     }
 
