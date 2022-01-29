@@ -823,6 +823,15 @@
         .ocumentNM-02-Section1 p:nth-of-type(42) { 
             margin-bottom: 16px !important;
         }
+
+        .ocumentNM-01-Section1 p:nth-of-type(2) {
+            background-color: #fefead;
+            margin-left: 0 !important;
+        }
+
+        .ocumentNM-01-Section1 table p {
+            font-size: 8px;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
