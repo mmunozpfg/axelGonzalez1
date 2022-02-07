@@ -832,6 +832,11 @@
         .ocumentNM-01-Section1 table span {
             font-size: 10px !important;
         }
+
+         /* ID */
+        .ocumentID-IO1-03-Section1 {
+            margin: 0 !important;
+        }
     }
 
     @media screen and (min-width: 413px) and (max-width: 415px) {
