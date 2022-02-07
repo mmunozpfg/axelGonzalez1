@@ -1099,6 +1099,10 @@
         .document5-Section1 table:nth-of-type(2) tr td p {
             font-size: 3.3vw !important;
         }
+
+        .document6-Section1 p:nth-of-type(3) {
+            margin-top: 10px!important;
+        }
         
         /***********REGION RESPONSIVE DOCUMENT8*************/
         .document6-Section1 p:nth-of-type(22) {
