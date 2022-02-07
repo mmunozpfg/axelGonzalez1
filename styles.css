@@ -732,6 +732,14 @@
             word-wrap: break-word;
         }
 
+        .ocumentMO-02-Section1 p:nth-child(12) {
+            display: none !important;    
+        }
+        
+        .ocumentMO-02-Section1 table:nth-of-type(2) tr:nth-of-type(1):only-child {
+            display: none !important;  
+        }
+
         /* NEW MEXICO DOCUMENTS */
         .ocumentNM-02-Section1 table tbody:nth-of-type(odd) tr:nth-child(2) td:only-child {
             border: none !important;
