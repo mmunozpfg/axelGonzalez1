@@ -1102,7 +1102,7 @@
         
         /***********REGION RESPONSIVE DOCUMENT8*************/
         .document6-Section1 p:nth-of-type(22) {
-            margin-bottom: 4px;
+            margin-bottom: 4px!important;
         }
 
         /***********REGION RESPONSIVE DOCUMENT8*************/
