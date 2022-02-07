@@ -856,6 +856,12 @@
             margin: 0 !important;
         }
 
+        /* MN */
+        .ocumentMN-01-Section1 p:nth-child(30) {
+            background-color: #fefead;
+            padding-bottom: 10px;
+        }
+
     
     }
 
