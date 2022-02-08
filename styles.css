@@ -582,6 +582,12 @@
     .ocumentID-IO1-03-Section1 div:last-child p:last-child {
         display: none;
     }
+    .ocumentID-IO1-03-Section1 table tbody tr:nth-of-type(9){
+        display: none !important;
+    }
+    .ocumentID-IO1-03-Section1 table tbody tr:nth-of-type(8) td:nth-of-type(2){
+        display: none !important;
+    }
 
     /*************MN Loan Documents ***************/
     .ocumentMN-01-Section1 {
