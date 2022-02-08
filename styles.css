@@ -915,7 +915,8 @@
         .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(1),
         .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(2),
         .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(3),
-        .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(4) {
+        .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(4),
+        .ocumentID-IO1-03-Section1 table:nth-of-type(1) tr:nth-child(8){
             display: none;
         }
 
