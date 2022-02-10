@@ -960,7 +960,7 @@
         }
         
         /* CONFLICT WITH TABLE ID: div:nth-of-type(1) table tbody tr td */
-        .ocumentID-IO1-03-Section1 table::nth-of-type(1) p {
+        .ocumentID-IO1-03-Section1 table:nth-of-type(1) p {
             padding: 0 !important;
         }
 
@@ -969,7 +969,7 @@
             min-width: 65px;
         }
         /* CONFLICT WITH TABLE ID: div:nth-of-type(1) table p */
-        .ocumentID-IO1-03-Section1 table::nth-of-type(1) p {
+        .ocumentID-IO1-03-Section1 table:nth-of-type(1) p {
             font-size: 6px !important;
         } 
         .ocumentID-IO1-03-Section1 table:nth-of-type(1) td:nth-child(1) p,
