@@ -672,6 +672,9 @@
             border-left: none;
             border-top: none;
         }
+        .ocumentDE-IL1-04-Section1 table:nth-of-type(2){
+            display: none;
+        }
         .ocumentDE-IL1-04-Section1 table:nth-of-type(3) p{
             font-size: 10pt !important;
         }
