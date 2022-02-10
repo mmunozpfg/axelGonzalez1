@@ -638,6 +638,32 @@
 
     /*#endregion*/
 
+
+    /*************DE Documents ***************/
+    .ocumentDE-IL1-03-Section1, .ocumentDE-IL1-04-Section1{
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+
+    .ocumentDE-IL1-03-Section1 a,
+    .ocumentDE-IL1-04-Section1 a {
+        color: #000000 !important;
+    }
+
+    .ocumentDE-IL1-03-Section1 table,
+    .ocumentDE-IL1-04-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .ocumentDE-IL1-03-Section1 div:last-child p:last-child,
+    .ocumentDE-IL1-04-Section1 div:last-child p:last-child {
+        display: none;
+    }    
+/*#endregion*/
     
 
 
