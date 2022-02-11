@@ -663,19 +663,19 @@
     .ocumentDE-IL1-04-Section1 div:last-child p:last-child {
         display: none;
     }  
-    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(1) table:nth-of-type(1) p:nth-of-type(1) {
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(4) table:nth-of-type(1) tr:nth-of-type(1) p {
         max-width: 1em !important;
         background: pink !important;
         margin: auto !important;
         line-height: normal !important;
     } 
-    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(1) table:nth-of-type(2) p:nth-of-type(1) {
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(4) table:nth-of-type(1) table:nth-of-type(2) p {
         max-width: 6em !important;
         margin: auto !important;
         line-height: normal !important;
         background: #ffe3b1 !important;
     } 
-    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(1) table:nth-of-type(3) p:nth-of-type(1) {
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(2) table:nth-of-type(4) table:nth-of-type(1) table:nth-of-type(3) p {
         max-width: 3em !important;
         margin: auto !important;
         line-height: normal !important;
