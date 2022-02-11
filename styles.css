@@ -662,6 +662,12 @@
     .ocumentDE-IL1-03-Section1 div:last-child p:last-child,
     .ocumentDE-IL1-04-Section1 div:last-child p:last-child {
         display: none;
+    }
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(3) p:nth-of-type(1),
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(3) p:nth-of-type(2),
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(3) p:nth-of-type(3),
+    .ocumentDE-IL1-04-Section1 table:nth-of-type(3) p:nth-of-type(4)  {
+        margin-left: 0;
     }  
     .ocumentDE-IL1-04-Section1 table:nth-of-type(3) tr:nth-of-type(4) table:nth-of-type(1) tr:nth-of-type(1) table:nth-of-type(1) p {
         max-width: 1em !important;
