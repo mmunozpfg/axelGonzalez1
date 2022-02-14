@@ -583,6 +583,47 @@
         display: none;
     }
     
+    /* KS LOAN DOCS */
+    .ocumentKS-I01-02-Section1 {
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+    
+    .ocumentKS-I01-02-Section1 table p{
+        font-size: 11px !important;
+    }
+    
+    .ocumentKS-I01-02-Section1 a {
+        color: #000000 !important;
+    }
+    
+    .ocumentKS-I01-02-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+    
+    .ocumentKS-I01-02-Section1 table td{
+        border-top: 0 !important; 
+        border-left: 0 !important
+    } 
+    
+    .ocumentKS-I01-02-Section1 table:nth-of-type(1) tr:nth-of-type(1){
+        border-top: 1px solid black !important;
+    } 
+    
+    .ocumentKS-I01-02-Section1 table:nth-of-type(1) tr:nth-of-type(8){
+        border-left: 0 !important;
+    } 
+    
+    .ocumentKS-I01-02-Section1 table tr{
+        border-left: 1px solid black !important;
+    } 
+    .ocumentKS-I01-02-Section1 div:last-child p:last-child {
+        display: none;
+    }
 
     /*************MN Loan Documents ***************/
     .ocumentMN-01-Section1 {
@@ -981,6 +1022,54 @@
         .ocumentMN-01-Section1 p:nth-child(30) {
             padding-bottom: 7px;
         }
+
+        /* KS */
+        
+        .ocumentKS-I01-02-Section1 {
+            margin: 0 !important;
+        }
+        .ocumentKS-I01-02-Section1 p:nth-of-type(8),
+        .ocumentKS-I01-02-Section1 p:nth-of-type(5),
+        .ocumentKS-I01-02-Section1 p:nth-of-type(6),
+        .ocumentKS-I01-02-Section1 p:nth-of-type(7) {
+            margin-left: 0 !important;
+        }
+        .ocumentKS-I01-02-Section1 p:nth-of-type(4){
+            display: none;
+        }
+
+        /* CONFLICT WITH TABLE ID: div:nth-of-type(1) table tbody tr td */
+        .ocumentKS-I01-02-Section1 div:nth-of-type(1) table tbody tr td {
+            padding: 0 !important;
+        }
+
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(3) p,
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) tr:nth-child(1) td:nth-child(4) p{
+            min-width: 65px;
+        }
+        /* CONFLICT WITH TABLE ID: div:nth-of-type(1) table p */
+        .ocumentKS-I01-02-Section1 div:nth-of-type(1) table p {
+            font-size: 6px !important;
+        } 
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) td:nth-child(1) p,
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) td:nth-child(1) {
+            
+            min-width: 65px;
+        }
+        /* CONFLICT WITH TABLE ID: div:nth-of-type(1) table td:nth-child(2) p */
+        .ocumentKS-I01-02-Section1 div:nth-of-type(1) table td:nth-child(2) p{
+            min-width: 135px;
+        }
+
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) td:nth-child(1) p,
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) td:nth-child(3) p {
+            padding-left: 5px;
+        }
+
+        .ocumentKS-I01-02-Section1 table:nth-of-type(1) tr:nth-child(8){
+            display: none;
+        }
+        
 
         /* ID */
         .ocumentID-IO1-03-Section1 {
