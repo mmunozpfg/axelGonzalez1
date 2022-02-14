@@ -660,7 +660,7 @@
         border-left: 0 !important;
     } 
     
-    .ocumentLA-I01-03-Section1 table tr{
+    .ocumentLA-I01-03-Section1 div:nth-of-type(1) table tr{
         border-left: 1px solid black !important;
     } 
     .ocumentLA-I01-03-Section1 div:last-child p:last-child {
