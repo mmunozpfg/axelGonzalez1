@@ -878,11 +878,11 @@
             margin-top:  10px !important;
         }
 
-        .documentC02-TXTS-05-Section1 p:nth-of-type(57) span:nth-of-type(1),
-        .documentC02-TXTS-05-Section1 p:nth-of-type(57) span:nth-of-type(2),
-        .documentC02-TXTS-05-Section1 p:nth-of-type(57) span:nth-of-type(3),
-        .documentC02-TXTS-05-Section1 p:nth-of-type(57) span:nth-of-type(4),
-        .documentC02-TXTS-05-Section1 p:nth-of-type(57) span:nth-of-type(5){
+        .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(1),
+        .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(2),
+        .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(3),
+        .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(4),
+        .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(5){
             display: none;
         }
 
