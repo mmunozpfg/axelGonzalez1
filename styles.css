@@ -868,14 +868,14 @@
             font-size: 9pt !important;
         }
         .documentC02-TXTS-03-Section1 p:nth-of-type(12){
-            margin-top: 35pt !important;
+            margin-top: 35px !important;
         }
 
         .documentC02-TXTS-04-Section1 p:nth-of-type(10){
-            margin-top: 41pt !important;
+            margin-top: 41px !important;
         }
         .documentC02-TXTS-05-Section1 p:nth-of-type(23){
-            margin-top:  10pt !important;
+            margin-top:  10px !important;
         }
 
     }
