@@ -842,7 +842,7 @@
         }
         .documentC02-TXTS-05-Section1 p:nth-of-type(8),
         .documentC02-TXTS-05-Section1 p:nth-of-type(9){
-            margin-left: 0;
+            margin-left: 0 !important;
         }
 
     }
