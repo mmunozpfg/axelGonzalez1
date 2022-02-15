@@ -874,6 +874,9 @@
         .documentC02-TXTS-04-Section1 p:nth-of-type(10){
             margin-top: 41pt !important;
         }
+        .documentC02-TXTS-05-Section1 p:nth-of-type(23){
+            margin-top:  10pt !important;
+        }
 
     }
 /*#endregion*/
