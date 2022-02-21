@@ -126,8 +126,23 @@
     }
 
     .documentCI5-TXRPFG-12-Section1 table {
+        margin: 0;
         border: 1px solid #000 !important;
+        box-shadow: none !important;
     }
+    
+    .documentCI5-TXRPFG-12-Section1 table tr td {
+        border: 0 !important;
+    }
+
+    .documentCI5-TXRPFG-12-Section1 table tr:nth-of-type(2) td div table{
+        background-color: #fefead;
+        border: 0 !important;
+    }
+
+
+
+    
 
     
 
