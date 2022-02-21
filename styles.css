@@ -135,6 +135,12 @@
         border: 0 !important;
     }
 
+    .documentCI5-TXRPFG-12-Section1 table:nth-child(1) tr:nth-of-type(2) td:nth-child(1) {
+        border: 0 !important;
+        margin: 0;
+        background-color: #fefead;
+    }
+
 
 
     
