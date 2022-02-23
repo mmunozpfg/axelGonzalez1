@@ -175,9 +175,11 @@
     .documentCI5-TXRPFG-13-Section1 table {
         width: auto !important;
     }
-    
+    .documentCI5-TXRPFG-13-Section1 table td:nth-of-type(2) p:nth-child(1){
+        width: 110px;
+    }    
     .documentCI5-TXRPFG-13-Section1 table span{
-        font-size: 7.5px;
+        font-size: 8px;
     }
 
 
