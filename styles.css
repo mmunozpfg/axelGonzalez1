@@ -186,6 +186,11 @@
     .documentCI5-TXRPFG-13-Section1 div table tbody tr td:nth-of-type(2) p {
         width: auto;
     }
+
+    .documentCI5-TXRPFG-13-Section1 div table:nth-child(1) tbody tr:nth-of-type(2) td:nth-of-type(1) p {
+        width: 30px;
+        padding-left: 20px;
+    }
     
     .documentCI5-TXRPFG-13-Section1 div table:nth-child(1) tbody tr td:nth-of-type(1) p {
     
