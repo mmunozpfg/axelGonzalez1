@@ -230,6 +230,14 @@
         width: 10px;
     }
     
+    .documentCI5-TXRPFG-11-Section1 p:nth-child(12),
+    .documentCI5-TXRPFG-11-Section1 p:nth-child(13),
+    .documentCI5-TXRPFG-11-Section1 p:nth-child(14),
+    .documentCI5-TXRPFG-11-Section1 p:nth-child(15),
+    .documentCI5-TXRPFG-11-Section1 p:nth-child(16){
+        display: none;
+    }
+    
 
 
     
