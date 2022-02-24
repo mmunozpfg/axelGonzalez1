@@ -191,6 +191,24 @@
         width: 30px;
         padding-left: 20px;
     }
+
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(3) span:nth-of-type(1){
+        display: block;
+        
+    }
+    
+    .documentCI5-TXRPFG-13-Section1 div:last-child{
+        display: none;
+    }
+    
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(5),
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(6),
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(7),
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(8),
+    .documentCI5-TXRPFG-13-Section1 p:nth-of-type(9) {
+        margin-left: 0 !important;
+    }
+        
     
 
 
