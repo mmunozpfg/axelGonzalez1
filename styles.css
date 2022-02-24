@@ -211,7 +211,8 @@
         
 
     /* documentCI5-TXRPFG-11-Section1  */
-    .documentCI5-TXRPFG-11-Section1 {
+    .documentCI5-TXRPFG-11-Section1,
+    .documentCI5-TXRPFG-14-Section1 {
         margin: 0 !important;
     }
     
