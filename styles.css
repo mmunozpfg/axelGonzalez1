@@ -251,10 +251,37 @@
     }
 
     .documentC02-TXRPFG-11-Section1 div:last-child,
-    .documentC02-TXRPFG-12-Section1 div:last-child {
+    .documentC02-TXRPFG-12-Section1 div:last-child,
+    .documentC02-TXRPFG-13-Section1 div:last-child {
         display: none;
     }
-    
+
+    /* documentC02-TXRPFG-13-Section1 */    
+    .documentC02-TXRPFG-13-Section1 table td {
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .documentC02-TXRPFG-13-Section1 table {
+        border: 0;
+        width: auto !important;
+    }
+    .documentC02-TXRPFG-13-Section1 table tbody tr td:nth-of-type(2) p {
+        width: 110px;
+    }
+
+    .documentC02-TXRPFG-13-Section1 div table tbody tr td:nth-of-type(2) p {
+        width: auto;
+    }
+
+    .documentC02-TXRPFG-13-Section1 div table:nth-child(1) tbody tr:nth-of-type(2) td:nth-of-type(1) p {
+        width: 30px;
+        padding-left: 20px;
+    }
+
+    .documentC02-TXRPFG-13-Section1 table span{
+        font-size: 8px;
+    }
 
     
 
