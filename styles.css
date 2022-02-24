@@ -256,11 +256,15 @@
     }
 
     /* documentC02-TXRPFG-13-Section1 */
+
+    .documentC02-TXRPFG-13-Section1 {
+        margin: 0 !important;
+    }
     
     .documentC02-TXRPFG-13-Section1 div:last-child {
         display: none;
     }
-    
+
     .documentC02-TXRPFG-13-Section1 table td {
         border: none !important;
         padding: 0 !important;
