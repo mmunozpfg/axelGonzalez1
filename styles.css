@@ -289,10 +289,6 @@
         padding-left: 20px;
     }
 
-    .documentC02-TXRPFG-13-Section1 table span{
-        font-size: 8px;
-    }
-
     .documentC02-TXRPFG-13-Section1 td {
         border: none;
     }
@@ -1500,6 +1496,11 @@
         
         .ocumentLA-I01-03-Section1 table:nth-of-type(1) tr:nth-child(8){
             display: none;
+        }
+
+        
+        .documentC02-TXRPFG-13-Section1 table span{
+            font-size: 8px;
         }
 
 
