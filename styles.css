@@ -212,20 +212,17 @@
 
     /* documentCI5-TXRPFG-11-Section1  */
     .documentCI5-TXRPFG-11-Section1 {
-        margin: 0;
+        margin: 0 !important;
     }
-
+    
     .documentCI5-TXRPFG-11-Section1 div:last-child{
         display: none;
     }
-
-    .documentCI5-TXRPFG-11-Section1 table tr{
+    
+    .documentCI5-TXRPFG-11-Section1 table tr,
+    .documentCI5-TXRPFG-11-Section1 table td,
+    .documentCI5-TXRPFG-11-Section1 table table {
         border: none !important;
-    }
-
-    .documentCI5-TXRPFG-11-Section1 table td {
-        border: none !important;
-        padding: 0 !important;
     }
     
 
