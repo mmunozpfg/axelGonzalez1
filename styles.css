@@ -216,7 +216,8 @@
         margin: 0 !important;
     }
     
-    .documentCI5-TXRPFG-11-Section1 div:last-child{
+    .documentCI5-TXRPFG-11-Section1 div:last-child,
+    .documentCI5-TXRPFG-14-Section1 div:last-child{
         display: none;
     }
     
