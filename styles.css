@@ -292,6 +292,10 @@
     .documentC02-TXRPFG-13-Section1 table span{
         font-size: 8px;
     }
+
+    .documentC02-TXRPFG-13-Section1 td {
+        border: none;
+    }
     
 
 
