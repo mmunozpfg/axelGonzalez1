@@ -224,6 +224,11 @@
     .documentCI5-TXRPFG-11-Section1 table table {
         border: none !important;
     }
+   
+    .documentCI5-TXRPFG-11-Section1 table table p {
+        margin-left: 50px;
+        width: 10px;
+    }
     
 
 
