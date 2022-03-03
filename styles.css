@@ -1191,9 +1191,7 @@
 
         .document4-Section1 div table tr:nth-of-type(1) td:nth-of-type(1) {
             border-top: 1px solid #000000 !important;
-        }
-
-       
+        }       
     }
 
     @media screen and (min-width: 320px) and (max-width: 412px) {
@@ -1999,6 +1997,11 @@
         }
         .ocumentNM-01-Section1 table tr td {
             max-width: auto;
+        }
+
+        /*************TXBS Documents ***************/
+        .documentCI5-TXBS-13-Section1 table:first-child tr td p{
+            font-size: 2vw!important;
         }
     }
 
