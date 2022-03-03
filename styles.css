@@ -2000,6 +2000,9 @@
         }
 
         /*************TXBS Documents ***************/
+        .documentCI5-TXBS-13-Section1 table:first-child {
+            background-color: yellow;
+        }
         .documentCI5-TXBS-13-Section1 table:first-child tr td p{
             font-size: 2vw!important;
         }
