@@ -2066,6 +2066,9 @@
     .documentCI5-TXBS-13-Section1 table:nth-of-type(1){
         border: none !important;
     }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2){
+        border: none !important;
+    }
     .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(4) td,
     .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(5) td,
     .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) td,
