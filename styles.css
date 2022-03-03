@@ -1033,14 +1033,14 @@
         display: none;
     }
     /*Vertical values on tables*/
-    .documentCI5-TXBS-11-Section1 table tr:last-child td:first-child div table tr td p
+    .documentCI5-TXBS-11-Section1 table tr:last-child td:first-child div table tr td p,
     .documentCI5-TXBS-12-Section1 table tr:last-child td:first-child div table tr td p {
         max-width: 1em;
         margin: auto;
         line-height: normal!important;
     }
     
-    .documentCI5-TXBS-11-Section1 table tr:last-child td:nth-of-type(2) div table tr td p {
+    .documentCI5-TXBS-12-Section1 table tr:last-child td:nth-of-type(2) div table tr td p {
         max-width: 5em;
         margin: auto;
         line-height: normal!important;
