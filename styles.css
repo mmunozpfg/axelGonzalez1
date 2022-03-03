@@ -2090,4 +2090,13 @@
     .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(4) table tr td p{
         max-width: 3em;
     }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(2) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(3) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(4) table tr td{
+        border: none !important;
+    }
 }
