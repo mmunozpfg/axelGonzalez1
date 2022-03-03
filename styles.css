@@ -294,11 +294,15 @@
     }
     
     /* documentC02-TXBS-11-Section1 */
-    .documentC02-TXBS-11-Section1 {
+    .documentC02-TXBS-11-Section1,
+    .documentC02-TXBS-12-Section1,
+    .documentC02-TXBS-13-Section1 {
         margin: 0 !important;
     }
 
-    .documentC02-TXBS-11-Section1 div:last-child {
+    .documentC02-TXBS-11-Section1 div:last-child,
+    .documentC02-TXBS-12-Section1 div:last-child,
+    documentC02-TXBS-13-Section1 div:last-child {
         display: none;
     }
 
