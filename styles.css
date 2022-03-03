@@ -1037,6 +1037,11 @@
         margin: auto;
         line-height: normal!important;
     }
+
+    .documentCI5-TXBS-11-Section1 table tr:last-child td div table {
+        border-style: none!important;
+    }
+    
     /*#endregion*/
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
