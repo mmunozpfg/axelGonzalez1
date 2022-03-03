@@ -2078,4 +2078,7 @@
     .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(13) td{
         border: none !important;
     }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr td{
+        border: 1px solid #000 !important;
+    }
 }
