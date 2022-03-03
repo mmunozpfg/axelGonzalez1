@@ -1017,6 +1017,13 @@
     .documentCI5-TXBS-14-Section1 div:last-child p:last-child {
         display: none;
     }
+
+    .documentCI5-TXBS-11-Section1 table tr:last-child td:first-child div table tr td p {
+        max-width: 1em;
+        margin: auto;
+        line-height: normal;
+        background-color: yellow;
+    }
     /*#endregion*/
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
