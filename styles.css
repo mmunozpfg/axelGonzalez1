@@ -1018,11 +1018,24 @@
         display: none;
     }
 
+    .documentCI5-TXBS-11-Section1 p:nth-of-type(12),
+    .documentCI5-TXBS-11-Section1 p:nth-of-type(13),
+    .documentCI5-TXBS-11-Section1 p:nth-of-type(14),
+    .documentCI5-TXBS-11-Section1 p:nth-of-type(15),
+    .documentCI5-TXBS-11-Section1 p:nth-of-type(16) {
+        display: none;
+    }
+    /*Vertical values on tables*/
     .documentCI5-TXBS-11-Section1 table tr:last-child td:first-child div table tr td p {
         max-width: 1em;
         margin: auto;
-        line-height: normal;
-        background-color: yellow;
+        line-height: normal!important;
+    }
+
+    .documentCI5-TXBS-11-Section1 table tr:last-child td:last-child div table tr td p {
+        max-width: 4em;
+        margin: auto;
+        line-height: normal!important;
     }
     /*#endregion*/
 
