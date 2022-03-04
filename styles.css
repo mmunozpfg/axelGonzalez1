@@ -333,6 +333,10 @@
     .documentC02-TXBS-13-Section1 table span{
         font-size: 8px;
     }
+
+    .documentC02-TXBS-13-Section1 table td{
+        border: 0;
+    }
     
 
 
