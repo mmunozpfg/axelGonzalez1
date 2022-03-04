@@ -320,7 +320,8 @@
         border: 2px solid black !important;
     }
     
-    .documentC02-TXBS-13-Section1 table {
+    .documentC02-TXBS-13-Section1 table,
+    .documentC02-TXBS-13-Section1 table td {
         border: 0;
         width: auto !important;
     }
