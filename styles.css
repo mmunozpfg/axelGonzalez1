@@ -1082,8 +1082,17 @@
         line-height: normal!important;
     }
     
-    .documentCI5-TXBS-12-Section1 table tr:last-child td:nth-of-type(2) div table tr td p {
+    .documentCI5-TXBS-12-Section1 table tr:last-child td:nth-of-type(2) div table tr td p,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-child(6) td div table tr:last-child td:nth-child(1) p,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-child(6) td div table tr:last-child td:nth-child(4) p{
         max-width: 5em;
+        margin: auto;
+        line-height: normal!important;
+    }
+
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-child(6) td div table tr:last-child td:nth-child(2) p,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-child(6) td div table tr:last-child td:nth-child(3) p{
+        max-width: 3em;
         margin: auto;
         line-height: normal!important;
     }
@@ -1103,13 +1112,6 @@
     /*#endregion*/
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
-        .documentCI5-TXBS-13-Section1 table::nth-of-type(1) p{
-            font-size: 6pt !important;
-        }
-        .documentCI5-TXBS-13-Section1 table::nth-of-type(2) p{
-            font-size: 9pt !important;
-        }
-
         .ocumentDE-IL1-04-Section1 table:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(2) {
             max-width: 60px !important;
         }
@@ -2046,14 +2048,6 @@
         .ocumentNM-01-Section1 table tr td {
             max-width: auto;
         }
-
-        /*************TXBS Documents ***************/
-        .documentCI5-TXBS-13-Section1 table::nth-of-type(1) {
-            background-color: pink;
-        }
-        .documentCI5-TXBS-13-Section1 table:first-child tr td p{
-            font-size: 2vw!important;
-        }
     }
 
     /* print styles */
@@ -2064,16 +2058,59 @@
         }
     }
 
-    /*documentCI5-TXBS-13-Section1*/
 
+/*documentCI5-TXBS-13-Section1*/
 @media screen and (min-width: 380px) and (max-width: 415px) {
-    .documentCI5-TXBS-13-Section1 table::nth-of-type(1) p{
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(1) p,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(1) p span{
         font-size: 6pt !important;
     }
-    .documentCI5-TXBS-13-Section1 table::nth-of-type(2) p{
-        font-size: 9pt !important;
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) p{
+        font-size: 8pt !important;
     }
-    .documentCI5-TXBS-13-Section1 table::nth-of-type(1){
-        background-color: red !important;
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(1){
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2){
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(4) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(5) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(7) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(8) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(9) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(10) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(11) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(12) td,
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(13) td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr td{
+        border: 1px solid #000 !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(2) table tr td p{
+        max-width: 2em!important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(3) table tr td p{
+        max-width: 3em;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(4) table tr td p{
+        max-width: 3em;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(1) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(2) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(3) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-13-Section1 table:nth-of-type(2) tr:nth-of-type(6) table tr:nth-of-type(2) td:nth-of-type(4) table tr td{
+        border: none !important;
+    }
+    .documentCI5-TXBS-14-Section1 table{
+        border: none !important;
     }
 }
