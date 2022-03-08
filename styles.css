@@ -2072,6 +2072,11 @@
     .documentCI5-TXBS-13-Section1 p:nth-of-type(3) span:nth-of-type(1){
         font-size: 5pt !important;
     }
+    .documentCI5-TXBS-13-Section1 p:nth-of-type(4) {
+        width: 348px !important;
+        white-space: nowrap !important;
+        overflow: hidden !important;
+    }
     .documentCI5-TXBS-13-Section1 table:nth-of-type(1){
         border: none !important;
     }
