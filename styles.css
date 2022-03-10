@@ -2330,6 +2330,11 @@
         overflow: hidden;
         white-space: nowrap;
     }
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr td{
+        border-top: none;
+        border-left: none;
+    }
+        
 }
 
 
