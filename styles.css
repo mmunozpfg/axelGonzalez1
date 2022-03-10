@@ -2299,7 +2299,9 @@
 }
 
 .documentC02-TXBFG-05-Section1 p:nth-of-type(58) span:nth-of-type(1),
-.documentC02-TXBFG-05-Section1 p:nth-of-type(58) span:nth-of-type(6){
+.documentC02-TXBFG-05-Section1 p:nth-of-type(58) span:nth-of-type(6),
+.documentC02-TXBFG-05-Section1 p:nth-of-type(78) span:nth-of-type(1),
+.documentC02-TXBFG-05-Section1 p:nth-of-type(78) span:nth-of-type(6){
     display: inline-block;
     width: 150px;
     white-space: nowrap;
