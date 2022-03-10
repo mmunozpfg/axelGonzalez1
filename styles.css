@@ -339,35 +339,6 @@
         margin: 0 !important;
     };
 
-    /* documentCI5-TXBV-04-Section1 */
-    .documentCI5-TXBV-04-Section1 {
-        margin: 0 !important;
-    }
-    
-    .documentCI5-TXBV-04-Section1 div:last-child{
-        display: none;
-    }
-    
-    .documentCI5-TXBV-04-Section1 table tr,
-    .documentCI5-TXBV-04-Section1 table td,
-    .documentCI5-TXBV-04-Section1 table table {
-        border: none !important;
-    }
-    
-    .documentCI5-TXBV-04-Section1 table table p {
-        margin-left: 50px;
-        width: 10px;
-    }
-    
-    .documentCI5-TXBV-04-Section1 p:nth-child(12),
-    .documentCI5-TXBV-04-Section1 p:nth-child(13),
-    .documentCI5-TXBV-04-Section1 p:nth-child(14),
-    .documentCI5-TXBV-04-Section1 p:nth-child(15),
-    .documentCI5-TXBV-04-Section1 p:nth-child(16){
-        display: none;
-    }
-    
-
 
 
     /*************#REGION DOCUMENT5 ***************/
@@ -1248,6 +1219,35 @@
         .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(5){
             display: none;
         }
+
+        /* documentCI5-TXBV-04-Section1 */
+        .documentCI5-TXBV-04-Section1 {
+            margin: 0 !important;
+        }
+        
+        .documentCI5-TXBV-04-Section1 div:last-child{
+            display: none;
+        }
+        
+        .documentCI5-TXBV-04-Section1 table tr,
+        .documentCI5-TXBV-04-Section1 table td,
+        .documentCI5-TXBV-04-Section1 table table {
+            border: none !important;
+        }
+        
+        .documentCI5-TXBV-04-Section1 table table p {
+            margin-left: 50px;
+            width: 10px;
+        }
+        
+        .documentCI5-TXBV-04-Section1 p:nth-child(12),
+        .documentCI5-TXBV-04-Section1 p:nth-child(13),
+        .documentCI5-TXBV-04-Section1 p:nth-child(14),
+        .documentCI5-TXBV-04-Section1 p:nth-child(15),
+        .documentCI5-TXBV-04-Section1 p:nth-child(16){
+            display: none;
+        }
+        
 
     }
 /*#endregion*/
