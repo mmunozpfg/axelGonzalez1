@@ -342,6 +342,10 @@
     .documentC02-TXRPFG-13-Section1 td {
         border: none;
     }
+
+    .documentCI5-TXBV-06-Section1 table {
+        width: 100% !important;
+    }
     
     /* documentC02-TXBS-11-Section1 */
     .documentC02-TXBS-11-Section1,
