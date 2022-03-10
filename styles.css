@@ -2335,7 +2335,11 @@
         border-left: none;
     }
       
-    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr td{
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr:nth-of-type(4) td,
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr:nth-of-type(5) td,
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr:nth-of-type(6) td,
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr:nth-of-type(7) td,
+    .documentC02-TXBFG-06-Section1 table:nth-of-type(2) tr:nth-of-type(8) td{
         border: none !important;
     }
 
