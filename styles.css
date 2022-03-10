@@ -208,6 +208,56 @@
     .documentCI5-TXRPFG-13-Section1 p:nth-of-type(9) {
         margin-left: 0 !important;
     }
+
+    /* documentCI5-TXBV-06-Section1 */
+    
+    .documentCI5-TXBV-06-Section1 {
+        margin: 0 !important;
+    }
+
+    .documentCI5-TXBV-06-Section1 table td {
+        border: none !important;
+        padding: 0 !important;
+    }
+
+    .documentCI5-TXBV-06-Section1 table {
+        border: none;
+        width: auto !important;
+    }
+    .documentCI5-TXBV-06-Section1 table td:nth-of-type(2) p:nth-child(1){
+        width: 110px;
+    }    
+    .documentCI5-TXBV-06-Section1 table span{
+        font-size: 8.5px;
+    }
+
+    .documentCI5-TXBV-06-Section1 div table tbody tr td:nth-of-type(2) p {
+        width: auto;
+    }
+
+    .documentCI5-TXBV-06-Section1 div table:nth-child(1) tbody tr:nth-of-type(2) td:nth-of-type(1) p {
+        width: 30px;
+        padding-left: 20px;
+    }
+
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(3) span:nth-of-type(1){
+        display: block;
+        
+    }
+    
+    .documentCI5-TXBV-06-Section1 div:last-child{
+        display: none;
+    }
+    
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(5),
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(6),
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(7),
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(8),
+    .documentCI5-TXBV-06-Section1 p:nth-of-type(9) {
+        margin-left: 0 !important;
+    }
+        
+
         
 
     /* documentCI5-TXRPFG-11-Section1  */
@@ -292,6 +342,10 @@
     .documentC02-TXRPFG-13-Section1 td {
         border: none;
     }
+
+    .documentVerbiage table {
+        width: 100% !important;
+    }
     
     /* documentC02-TXBS-11-Section1 */
     .documentC02-TXBS-11-Section1,
@@ -338,6 +392,7 @@
         padding: 0 !important;
         margin: 0 !important;
     };
+
 
 
     /*************#REGION DOCUMENT5 ***************/
@@ -1245,6 +1300,72 @@
         .documentC02-TXTS-04-Section1 p:nth-of-type(57) span:nth-of-type(5){
             display: none;
         }
+
+        /* documentCI5-TXBV-04-Section1 */
+        .documentCI5-TXBV-04-Section1 {
+            margin: 0 !important;
+        }
+        
+        .documentCI5-TXBV-04-Section1 div:last-child{
+            display: none;
+        }
+        
+        .documentCI5-TXBV-04-Section1 table tr,
+        .documentCI5-TXBV-04-Section1 table td,
+        .documentCI5-TXBV-04-Section1 table table {
+            border: none !important;
+        }
+        
+        .documentCI5-TXBV-04-Section1 table table p {
+            margin-left: 50px;
+            width: 10px;
+        }
+        
+        .documentCI5-TXBV-04-Section1 p:nth-child(12),
+        .documentCI5-TXBV-04-Section1 p:nth-child(13),
+        .documentCI5-TXBV-04-Section1 p:nth-child(14),
+        .documentCI5-TXBV-04-Section1 p:nth-child(15),
+        .documentCI5-TXBV-04-Section1 p:nth-child(16){
+            display: none;
+        }
+
+        /* documentCI5-TXBV-05-Section1 */
+        .documentCI5-TXBV-05-Section1 div:last-child{
+            display: none;
+        }
+        
+        .documentCI5-TXBV-05-Section1 {
+           margin: 0 !important;
+        }
+        
+        .documentCI5-TXBV-05-Section1 table {
+           margin: 0;
+           border: 1px solid #000 !important;
+           box-shadow: none !important;
+        }
+        
+        .documentCI5-TXBV-05-Section1 table tr:nth-of-type(2) td div table{
+           border: 0 !important;
+        }
+        
+        .documentCI5-TXBV-05-Section1 table:nth-child(1) tr:nth-of-type(2) td div {
+           border: 0 !important;
+        }
+        .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tr:nth-of-type(2) tr td {
+           text-align: -webkit-center;
+           border: 0 !important;
+        }
+        
+        .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(1) div table tr td p{
+           width: 5px;
+        }
+        .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(2) div table tr td p{
+           width: 50px;
+        }
+        .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(3) div table tr td p{
+           width: 30px;
+        }
+        
 
     }
 /*#endregion*/
