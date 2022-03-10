@@ -1109,6 +1109,33 @@
         border-style: none!important;
     }
     
+    /*************TXTS Documents ***************/
+    .documentC02-TXBFG-04-Section1, .documentC02-TXBFG-05-Section1, .documentC02-TXBFG-06-Section1{
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+
+    .documentC02-TXBFG-04-Section1 a,
+    .documentC02-TXBFG-05-Section1 a,
+    .documentC02-TXBFG-06-Section1 a {
+        color: #000000 !important;
+    }
+
+    .documentC02-TXBFG-04-Section1 table,
+    .documentC02-TXBFG-05-Section1 table,
+    .documentC02-TXBFG-06-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .documentC02-TXBFG-04-Section1 div:last-child p:last-child,
+    .documentC02-TXBFG-05-Section1 div:last-child p:last-child,
+    .documentC02-TXBFG-06-Section1 div:last-child p:last-child {
+        display: none;
+    }
     /*#endregion*/
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
