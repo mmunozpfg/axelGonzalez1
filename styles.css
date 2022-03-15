@@ -1393,11 +1393,10 @@
            padding-top: 25px;
         }
         
-        .documentCI5-TXBV-05-Section1 table,
-        .documentCI5-TXBV-05-Section1 table tr td {
+        .documentCI5-TXBV-05-Section1 table td {
             border-style: none!important;
         }
-        
+
         .documentCI5-TXBV-05-Section1 table tr:nth-of-type(2) td div table{
            border: 0 !important;
         }
