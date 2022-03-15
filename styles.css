@@ -1201,6 +1201,11 @@
         display: none;
     }
     /*#endregion*/
+    .documentCI5-TXBV-04-Section1 table table p {
+        margin-left: 50px;
+        width: 10px;
+        line-height: normal;
+    }
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
         .ocumentDE-IL1-04-Section1 table:nth-of-type(1) tr:nth-of-type(7) td:nth-of-type(2) {
@@ -1320,15 +1325,11 @@
         }
         
         .documentCI5-TXBV-04-Section1 table tr,
-        .documentCI5-TXBV-04-Section1 table td,
-        .documentCI5-TXBV-04-Section1 table table {
+        .documentCI5-TXBV-04-Section1 table td{
             border: none !important;
         }
         
-        .documentCI5-TXBV-04-Section1 table table p {
-            margin-left: 50px;
-            width: 10px;
-        }
+        
         
         .documentCI5-TXBV-04-Section1 p:nth-child(12),
         .documentCI5-TXBV-04-Section1 p:nth-child(13),
