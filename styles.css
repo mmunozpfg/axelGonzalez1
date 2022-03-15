@@ -1322,14 +1322,7 @@
         
         .documentCI5-TXBV-04-Section1 div:last-child{
             display: none;
-        }
-        
-        .documentCI5-TXBV-04-Section1 table tr,
-        .documentCI5-TXBV-04-Section1 table td{
-            border: none !important;
-        }
-        
-        
+        }     
         
         .documentCI5-TXBV-04-Section1 p:nth-child(12),
         .documentCI5-TXBV-04-Section1 p:nth-child(13),
