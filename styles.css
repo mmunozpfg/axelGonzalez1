@@ -1202,7 +1202,7 @@
     }
     /*#endregion*/
     .documentCI5-TXBV-04-Section1 table table p {
-        margin-left: 50px;
+        margin: auto;
         width: 10px;
         line-height: normal !important;
     }
@@ -1340,6 +1340,9 @@
         .documentCI5-TXBV-04-Section1 p:nth-child(15),
         .documentCI5-TXBV-04-Section1 p:nth-child(16){
             display: none;
+        }
+        .documentCI5-TXBV-04-Section1 table tr td {
+            border-style: none!important;
         }
 
         /* documentCI5-TXBV-05-Section1 */
