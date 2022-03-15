@@ -1219,9 +1219,14 @@
         display: none;
     }
 
-    .documentCI5-TXBV-04-Section1 table table p {
+    .documentCI5-TXBV-04-Section1 table tr:nth-child(2) td:first-child div table p {
         margin: auto;
-        width: 10px;
+        max-width: 1em;
+        line-height: normal !important;
+    }
+    .documentCI5-TXBV-04-Section1 table tr:nth-child(2) td:last-child div table p {
+        margin: auto;
+        max-width: 4em;
         line-height: normal !important;
     }
     .documentCI5-TXBV-04-Section1 table:nth-of-type(1) tr:nth-of-type(2) td:nth-of-type(1) table,
