@@ -1393,8 +1393,9 @@
            padding-top: 25px;
         }
         
-        .documentCI5-TXBV-05-Section1 table td {
-            border-style: none!important;
+        .documentCI5-TXBV-05-Section1 table:first-child td {
+            border-top: 1px solid black;
+            border-left: 1px solid black;
         }
 
         .documentCI5-TXBV-05-Section1 table tr:nth-of-type(2) td div table{
