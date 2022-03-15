@@ -1196,6 +1196,29 @@
         display: none;
     }
     /*#endregion*/
+
+    /*TXBV Documents*/
+    .documentCI5-TXBV-04-Section1{
+        margin: auto !important;
+        width: 100%;
+        padding: 8% 0;
+        word-wrap: break-word;
+    }
+
+    .documentCI5-TXBV-04-Section1 a {
+        color: #000000 !important;
+    }
+
+    .documentCI5-TXBV-04-Section1 table {
+        margin: 10px 0px !important;
+        width: 100% !important;
+        border-radius: 0px;
+    }
+
+    .documentCI5-TXBV-04-Section1 div:last-child p:last-child {
+        display: none;
+    }
+
     .documentCI5-TXBV-04-Section1 table table p {
         margin: auto;
         width: 10px;
