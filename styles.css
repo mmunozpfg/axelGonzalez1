@@ -1383,6 +1383,27 @@
         width: 30px;
         line-height: normal !important;
      }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(1) div table{
+        border: none !important;
+     }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(2) div table{
+        border: none !important;
+     }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(3) div table{
+        border: none !important;
+     }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(1) div table tr td{
+        border-top: none !important;
+        border-left: none !important;
+     }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(2) div table tr td{
+        border-top: none !important;
+        border-left: none !important;
+     }
+     .documentCI5-TXBV-05-Section1 div:nth-of-type(1) table tbody tr:nth-of-type(2) td:nth-of-type(3) div table tr td{
+        border-top: none !important;
+        border-left: none !important;
+     }
 /*#endregion*/
     
 
