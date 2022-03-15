@@ -1204,7 +1204,7 @@
     .documentCI5-TXBV-04-Section1 table table p {
         margin-left: 50px;
         width: 10px;
-        line-height: normal;
+        line-height: normal !important;
     }
 
     @media screen and (min-width: 320px) and (max-width: 412px) { 
