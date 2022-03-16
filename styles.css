@@ -234,9 +234,14 @@
         width: auto;
     }
 
+    .documentCI5-TXBV-06-Section1 div table:nth-child(1) tbody tr:nth-of-type(2) td:nth-of-type(1) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .documentCI5-TXBV-06-Section1 div table:nth-child(1) tbody tr:nth-of-type(2) td:nth-of-type(1) p {
         width: 30px;
-        padding-left: 20px;
+        padding-left: auto;
     }
 
     .documentCI5-TXBV-06-Section1 p:nth-of-type(3) span:nth-of-type(1){
