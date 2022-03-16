@@ -214,7 +214,11 @@
     .documentCI5-TXBV-06-Section1 {
         margin: 0 !important;
     }
-
+    
+    .documentCI5-TXBV-06-Section1 table td {
+        border: none !important;
+        padding: 0 !important;
+    }
     .documentCI5-TXBV-06-Section1 table {
         border: none;
         width: auto !important;
