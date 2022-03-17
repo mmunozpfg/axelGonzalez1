@@ -1019,7 +1019,9 @@
         display: none !important;
     }
 
-    
+    .documentVerbiage table td {
+        border: none;
+    }
 
     .ocumentMN-01-Section1 table td{
         border-top: 0 !important; 
