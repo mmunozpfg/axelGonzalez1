@@ -1023,6 +1023,10 @@
         border: none;
     }
 
+    .documentVerbiage table {
+        border: none;
+    }
+
     .ocumentMN-01-Section1 table td{
         border-top: 0 !important; 
         border-left: 0 !important
