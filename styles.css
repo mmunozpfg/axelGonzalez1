@@ -223,6 +223,25 @@
         border: none;
         width: auto !important;
     }
+    .documentCI5-TXBV-06-Section1 table:nth-of-type(2) td   {
+        border-top-style: 1px !important;
+        border-bottom-style: auto !important;
+        border-left-style: auto !important;
+        border-right-style: auto !important;
+        border-top-width: 1px !important;
+        border-bottom-width: 1px !important;
+        border-left-width:  1px !important;
+        border-right-width:  1px !important;        
+    }
+
+    .documentCI5-TXBV-06-Section1 table:nth-of-type(2) td  table td td {
+        border: none !important;
+    }    
+
+    .documentCI5-TXBV-06-Section1 table {
+        border: none;
+        width: auto !important;
+    }
     .documentCI5-TXBV-06-Section1 table td:nth-of-type(2) p:nth-child(1){
         width: 110px;
     }    
