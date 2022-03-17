@@ -249,7 +249,7 @@
         width: auto !important;
     }
     .documentCI5-TXBV-06-Section1 table td:nth-of-type(2) p:nth-child(1){
-        width: 110px;
+        width: auto;
     }    
     .documentCI5-TXBV-06-Section1 table span{
         font-size: 8.5px;
