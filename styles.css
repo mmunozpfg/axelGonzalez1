@@ -710,6 +710,12 @@
     .document11-Section1 p:nth-of-type(1) span::nth-of-type(1) {
         display: none !important;
     }
+    .document11-Section1 table:nth-of-type(1) {
+        border-style: none;
+    }
+    .document11-Section1 table:nth-of-type(1) td{
+        border-style: none;
+    }
     .document11-Section1 table:nth-of-type(3) {
      margin-top: -25px !important;
     }
@@ -769,6 +775,14 @@
 
     .document13-Section1 table:nth-of-type(2) tr:nth-of-type(1) td {
         border: 2px solid #000!important;
+    }
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:first-child table:first-child,
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(2) table:first-child,
+    .document13-Section1 table:nth-of-type(2) tr:last-child td:nth-of-type(3) table:first-child {
+        border-style: none!important;
+    }
+    .document13-Section1 table:nth-of-type(2) tr td {
+        border: 1.5px solid #8d8d8d!important;
     }
     /*#endregion*/
 
